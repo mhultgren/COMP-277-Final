@@ -1,1 +1,0 @@
-window_set_size( 1700, 1500 );
