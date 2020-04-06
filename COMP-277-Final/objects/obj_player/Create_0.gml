@@ -1,1 +1,1 @@
-player_speed = 5;
+player_speed = 3;

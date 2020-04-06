@@ -2,7 +2,7 @@
     "id": "598c2f85-4bbd-450e-b05b-ece93a03387b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_boundary",
+    "name": "obj_tangible",
     "eventList": [
         
     ],
