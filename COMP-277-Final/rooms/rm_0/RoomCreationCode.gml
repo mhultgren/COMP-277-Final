@@ -8,7 +8,7 @@ if (!instance_exists(obj_player)) {
 
 if (!global.tutorialDone) {
 	global.tutorialDone = true;
-	NewTextBox("Welcome to the COMP 277 Prototype!\nPress ENTER to continue.", 1, ["Continue."]);
-	NewTextBox("Move with the WASD keys.", 1, ["Continue"]);
-	NewTextBox("Press ENTER to interact with others!", 1, ["CONTINUE"]);
+	scr_new_text_box("Welcome to the COMP 277 Prototype!\nPress ENTER to continue.", 1, ["0:Continue."]);
+	scr_new_text_box("Move with the WASD keys.", 1, ["0:Continue"]);
+	scr_new_text_box("Press ENTER to interact with others!", 1, ["0:CONTINUE"]);
 }

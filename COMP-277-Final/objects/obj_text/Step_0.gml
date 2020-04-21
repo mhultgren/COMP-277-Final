@@ -15,6 +15,13 @@ if (!global.gamePaused) {
 
 	if (keyboard_check_pressed(vk_enter)) {
 		var messageLength = string_length(message);
+		
+		if (responses[0] != -1) {
+			with (originInstance) {
+				scr_dialogue_responses(other.responses_scripts[other.responseHighlighted])
+			}
+		}
+		
 		if (textProgress >= messageLength) {
 			instance_destroy();
 		
