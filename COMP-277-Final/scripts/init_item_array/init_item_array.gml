@@ -77,12 +77,9 @@ for (i=0; i<20; i+=1){
 	else{
 		gridX+=128;
 	}
-	show_debug_message(string(global.item_array[i]));
 }
 
-global.item_array[20]=[20,100,"","",610,370,true,true,true,true,100];
-global.item_array[21]=[21,101,"","",610,498,true,true,true,true,101];
-global.item_array[22]=[22,102,"","",610,626,true,true,true,true,102];
-show_debug_message(string(global.item_array[20]));
-show_debug_message(string(global.item_array[21]));
-show_debug_message(string(global.item_array[22]));
+
+global.item_array[20]=[20,100,"","",608,368,true,true,true,true,100];
+global.item_array[21]=[21,101,"","",608,496,true,true,true,true,101];
+global.item_array[22]=[22,102,"","",608,624,true,true,true,true,102];
