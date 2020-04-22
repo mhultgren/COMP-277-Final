@@ -13,7 +13,7 @@
 // 7 bottom bound - bool
 // 8 left bound - bool
 // 9 right bound - bool
-// 10 - item type (other menus are 100-101)
+// 10 item type - int (other menus are 100-101)
 
 if (curr_slot[0]<20){
 	if keyboard_check_pressed(ord("W")) {
@@ -87,6 +87,9 @@ else{
 			x = curr_slot[4];
 			y = curr_slot[5];
 		}
+		if keyboard_check_pressed(vk_enter) {
+			room_goto(evidence_menu);
+		}
 	}
 	else if (curr_slot[0]==21){
 		if keyboard_check_pressed(ord("W")) {
@@ -104,6 +107,9 @@ else{
 			sprite_index=spr_item_select;
 			x = curr_slot[4];
 			y = curr_slot[5];
+		}
+		if keyboard_check_pressed(vk_enter) {
+			room_goto(options_menu);
 		}
 		
 	}
@@ -124,6 +130,9 @@ else{
 			sprite_index=spr_item_select;
 			x = curr_slot[4];
 			y = curr_slot[5];
+		}
+		if keyboard_check_pressed(vk_enter) {
+			room_goto(end_menu);
 		}
 	}
 }
