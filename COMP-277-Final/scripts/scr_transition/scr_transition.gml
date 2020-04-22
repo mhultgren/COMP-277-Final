@@ -4,6 +4,7 @@
 /// @arg target_x sets target horizontal position
 /// @arg target_y sets target vertical position
 
+room_persistent=false;
 
 if (argument_count > 1){
 		global.target_room = argument[1];

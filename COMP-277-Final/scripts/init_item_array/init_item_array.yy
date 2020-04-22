@@ -1,8 +1,8 @@
 {
-    "id": "f316442e-5980-4930-94df-759cbf1fe6b3",
+    "id": "9faafed6-632a-4e3d-99e8-c65603b6a113",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_transition",
+    "name": "init_item_array",
     "IsCompatibility": false,
     "IsDnD": false
 }

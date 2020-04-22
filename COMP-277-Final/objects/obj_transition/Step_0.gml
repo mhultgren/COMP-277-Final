@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 if (mode == 1){ // if fading, you should not be able to control the character
 	
 	with (obj_player) 
@@ -17,6 +18,7 @@ if (mode == 1){ // if fading, you should not be able to control the character
 	
 	else{
 		percent = 1;
+
 		room_goto(global.target_room);
 	
 	}
