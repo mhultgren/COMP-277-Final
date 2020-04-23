@@ -10,5 +10,6 @@ switch(argument0) {
 	case 1: scr_new_text_box(":)", 0); break;
 	case 2: scr_new_text_box("Well fuck you too!", 1, ["3::)", "0::("]); break;
 	case 3: scr_new_text_box(">:(", 1); break;
+	case 4: room_persistent = true; room_goto(rm_battle); global.battle_enemy = spr_battle_person_fight; global.battle_room = room; break;
 	default: break;
 }

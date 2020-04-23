@@ -12,4 +12,3 @@ view_camera[0] = camera;
 follow = obj_player;
 xTo = x;
 yTo = y;
-

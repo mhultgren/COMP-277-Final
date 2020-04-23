@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1a93b562-702a-4890-baef-aca13ad40070",
+            "Value": {
+                "id": "3fd18aff-91b2-436b-ba8e-6093ecdaa595",
+                "resourcePath": "views\\1a93b562-702a-4890-baef-aca13ad40070.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1e5a4df4-6d0d-42fc-a01d-f29803b9473a",
             "Value": {
                 "id": "b7e3f29e-65ad-4f95-9f08-1c05b25ac2fb",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "45cdbfa4-fc99-4fcb-9518-0fe2e6a98621",
+            "Value": {
+                "id": "3a2dbb85-4b86-4b14-a4d9-0c97426bf599",
+                "resourcePath": "views\\45cdbfa4-fc99-4fcb-9518-0fe2e6a98621.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "45dfe538-6c7a-406f-90da-f0d6e8ee8786",
             "Value": {
                 "id": "7114b7a5-73b6-4e46-a794-c9838bf4cc69",
@@ -228,6 +244,14 @@
                 "id": "218542c6-893f-4f15-baed-b7ab5e64b24c",
                 "resourcePath": "views\/46ee3b96-6c18-4c05-b3bb-d099b115a2f6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "49647867-771e-4647-94a1-63f1536c984c",
+            "Value": {
+                "id": "385dd3bb-ef7e-4d41-a2d2-d7a1e6df9f68",
+                "resourcePath": "scripts\\state_battle\\state_battle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -279,6 +303,14 @@
             }
         },
         {
+            "Key": "5ce14978-5891-4c1c-95d7-35cfa0691aed",
+            "Value": {
+                "id": "30898d1a-6a67-4443-ad7a-52ad1c850923",
+                "resourcePath": "rooms\\rm_battle\\rm_battle.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5ecb41d3-6fef-4951-9cd3-8d279c16a1ba",
             "Value": {
                 "id": "91216e79-8621-40dc-9cbb-25d80269c38a",
@@ -292,6 +324,22 @@
                 "id": "2bac4585-eb2a-4a56-b024-81bc05f97f0e",
                 "resourcePath": "views\/60b8ae4a-0a21-4ee1-a60d-da5bcc5846be.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "61c2b2c8-ea49-497d-ab60-7f5fa91b0f4c",
+            "Value": {
+                "id": "56316fff-f705-45db-8431-25a75b81e605",
+                "resourcePath": "sprites\\spr_battle_bar\\spr_battle_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "65fa7cab-e51f-4539-aa7f-9668b22deaa6",
+            "Value": {
+                "id": "72ebaa63-0c14-4db4-8b21-77c80c48857a",
+                "resourcePath": "objects\\obj_battle_person\\obj_battle_person.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -371,6 +419,22 @@
             "Value": {
                 "id": "759a9029-f04d-4cd5-8fb9-92a5f7d84476",
                 "resourcePath": "sprites\/spr_item_select\/spr_item_select.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "88e95949-4093-4d7c-83bd-86c1237a1039",
+            "Value": {
+                "id": "5a425a9a-deae-407e-a1f9-7931e4e68554",
+                "resourcePath": "objects\\obj_battle_enemy\\obj_battle_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "89bc09e1-807c-4bc5-b12c-0a355b7059ca",
+            "Value": {
+                "id": "7553af08-08fb-4e8f-99b7-d7e712f870ee",
+                "resourcePath": "sprites\\spr_battle_person\\spr_battle_person.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -479,6 +543,14 @@
             }
         },
         {
+            "Key": "a331421e-84e2-4074-942e-fcabacdd78e4",
+            "Value": {
+                "id": "4cbe5292-07c3-445e-b2ad-9adc264d4945",
+                "resourcePath": "views\\a331421e-84e2-4074-942e-fcabacdd78e4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a694744f-2a0f-49f4-adb1-0296e9b0655a",
             "Value": {
                 "id": "0474fee7-6575-444e-b802-8e6adbfbb563",
@@ -519,6 +591,14 @@
             }
         },
         {
+            "Key": "aa5b0fc3-b3ec-41cb-8230-307dd29a2616",
+            "Value": {
+                "id": "98d3bc01-4d05-40dd-844c-56bf8c47ba50",
+                "resourcePath": "sprites\\spr_battle_person_fight\\spr_battle_person_fight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b589a709-3325-4ecc-b05a-c3eeafda63ab",
             "Value": {
                 "id": "a8d0d84f-7698-448b-8276-b417e4e3901e",
@@ -556,6 +636,14 @@
                 "id": "f458421a-1009-4e34-82d2-243874396cd8",
                 "resourcePath": "views\/bfe31594-cbbf-46ab-aecd-39f1df89fb58.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c05968d6-f3a9-466a-a2bd-78aef566c193",
+            "Value": {
+                "id": "f4f9f9fd-19a1-4e20-ae57-4a933858696a",
+                "resourcePath": "objects\\obj_battle_bar\\obj_battle_bar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -668,6 +756,14 @@
                 "id": "53ea978f-1d81-4b69-8bdc-407c8b58e521",
                 "resourcePath": "sprites\/spr_evidence_back\/spr_evidence_back.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d73d11c3-7066-4966-9cb1-3a2a41f17a8a",
+            "Value": {
+                "id": "6ca37df2-589f-4c5e-a9e6-b870f5511927",
+                "resourcePath": "objects\\obj_player_health_bar\\obj_player_health_bar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -798,6 +894,7 @@
         "8200c8a8-37c1-48a2-8f46-022cd8e25304",
         "11cff18d-f07b-42f8-8472-935391f4d4c1",
         "2a9495e3-7d84-43f7-9930-f24c8c439c7e",
+        "49647867-771e-4647-94a1-63f1536c984c",
         "cc85b589-5115-4abc-95c7-4b993ea04b0e",
         "9faafed6-632a-4e3d-99e8-c65603b6a113",
         "84ab5834-6e31-42d2-acf1-ba3101855f2f",

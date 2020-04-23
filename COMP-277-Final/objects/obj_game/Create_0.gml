@@ -1,5 +1,6 @@
 global.gamePaused = false;
 persistent = true;
+battleEnded = false;
 //display_set_gui_size(1024,768);
 //texture_set_interpolation(true);
 

@@ -33,7 +33,7 @@ if place_meeting(x, y, obj_road) {
 	player_speed = 3;
 }
 
-if (keyboard_check(ord("E"))) {
+if (keyboard_check_pressed(ord("E"))) {
 	activate = instance_place(x+lengthdir_x(30, direction), y+lengthdir_y(30, direction), obj_entity);
 	
 	if (activate != noone && activate.entity_activate_script != -1) {

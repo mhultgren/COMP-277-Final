@@ -1,5 +1,5 @@
 {
-    "id": "2339ffb8-935f-4ba5-a640-188d9e336b1e",
+    "id": "49647867-771e-4647-94a1-63f1536c984c",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "state_battle",
