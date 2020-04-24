@@ -1,1 +1,0 @@
-option_highlighted = 0;
