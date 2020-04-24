@@ -1,3 +1,5 @@
+
+
 global.gamePaused = false;
 persistent = true;
 battleEnded = false;
