@@ -1,6 +1,6 @@
 /// @desc Draw Textbox
 NineSliceBoxStretched(spr_textBox, x1, y1, x2, y2, background);
-draw_set_font(f_text);
+draw_set_font(global.pixel_font);
 draw_set_halign(fa_center);
 draw_set_valign(fa_top);
 draw_set_color(c_black);

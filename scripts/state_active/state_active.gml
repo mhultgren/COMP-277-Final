@@ -27,6 +27,8 @@ if keyboard_check(ord("D")) {
 	}
 }
 
+image_index = CARDINAL_DIR;
+
 if place_meeting(x, y, obj_road) {
 	player_speed = 5;
 } else {

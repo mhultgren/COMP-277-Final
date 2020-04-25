@@ -1,4 +1,3 @@
 enum states {
-	active,
-	battle
+	active
 }

@@ -1,4 +1,4 @@
-// @arg item ID
+/// @arg item ID
 
 // item_array entry Index Key 
 // (can't access these indexes directly, need to assign curr_slot=item_array[x], then use curr_slot[x])

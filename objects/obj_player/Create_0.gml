@@ -6,6 +6,8 @@ global.player_health = 100;
 global.current_player_health = global.player_health;
 global.player_attack_power = 20;
 
+// chance of hitting enemy (out of 10)
+global.hit_chance = 6;
+
 state = states.active;
 states_array[states.active] = state_active;
-states_array[states.battle] = state_battle;

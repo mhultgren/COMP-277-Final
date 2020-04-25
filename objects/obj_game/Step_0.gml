@@ -1,6 +1,6 @@
 //show_debug_message(string(room_persistent));
 if (keyboard_check_pressed(vk_escape)) {
-	if (global.textOnScreen==false) {
+	if (global.textOnScreen==false && room != rm_battle) {
 		
 		global.gamePaused = !global.gamePaused;
 
