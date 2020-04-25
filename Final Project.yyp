@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "12ffe282-da42-4473-aad0-0b816d77c4d6",
+            "Value": {
+                "id": "3bdcfdd8-30cc-4802-aa98-e92bf12400bc",
+                "resourcePath": "rooms\\rm_townHallRecords\\rm_townHallRecords.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1518947a-aab9-4033-9c67-14e5a8283751",
             "Value": {
                 "id": "2981cc2e-d900-4a4a-84bf-21c6ed7c7dfa",
@@ -116,6 +124,14 @@
                 "id": "3fd18aff-91b2-436b-ba8e-6093ecdaa595",
                 "resourcePath": "views\/1a93b562-702a-4890-baef-aca13ad40070.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1bc1ec5d-cc83-49de-90b6-e4ff55a5fd68",
+            "Value": {
+                "id": "82a4e5ae-5a96-42a5-9ffb-1e42623513d5",
+                "resourcePath": "rooms\\rm_ranHouse2\\rm_ranHouse2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -180,6 +196,14 @@
                 "id": "d309d3b2-1de0-408a-8403-53d85800ba19",
                 "resourcePath": "views\/35c0057b-c895-4697-b789-b54716383261.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3841f611-f84d-4955-967d-96dbbb5ca92e",
+            "Value": {
+                "id": "5761a6af-da4d-459c-ada8-499bec04f8b2",
+                "resourcePath": "rooms\\rm_ezekielDaughterRoom\\rm_ezekielDaughterRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -252,6 +276,14 @@
                 "id": "7114b7a5-73b6-4e46-a794-c9838bf4cc69",
                 "resourcePath": "sprites\/spr_pauseBG\/spr_pauseBG.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "466524aa-810f-4406-9f9e-fe9f557290b0",
+            "Value": {
+                "id": "d666e66a-4ac2-45e2-9c0b-c5309f752834",
+                "resourcePath": "rooms\\rm_townHall\\rm_townHall.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -463,6 +495,14 @@
             }
         },
         {
+            "Key": "889daae4-b82d-4c81-bdb8-d9da617f8220",
+            "Value": {
+                "id": "b9c85186-f9ae-4efb-8252-d2cc1cb9a486",
+                "resourcePath": "rooms\\rm_policeStation\\rm_policeStation.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "88e95949-4093-4d7c-83bd-86c1237a1039",
             "Value": {
                 "id": "5a425a9a-deae-407e-a1f9-7931e4e68554",
@@ -476,6 +516,14 @@
                 "id": "7553af08-08fb-4e8f-99b7-d7e712f870ee",
                 "resourcePath": "sprites\/spr_battle_person\/spr_battle_person.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8a092a4c-9cac-47ac-8d02-5ae0aebdb8ca",
+            "Value": {
+                "id": "04db6e93-078b-498d-8080-da59229c44d1",
+                "resourcePath": "rooms\\rm_policeStationCells\\rm_policeStationCells.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -532,6 +580,14 @@
                 "id": "432e330f-3807-4a3b-9f87-ed39e7976e2b",
                 "resourcePath": "objects\/obj_entity\/obj_entity.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9d37cbac-7b58-4287-ab87-27f28b6f041d",
+            "Value": {
+                "id": "dcc6d861-7b34-46cb-b0cb-1f4cc6eb4398",
+                "resourcePath": "rooms\\rm_bar\\rm_bar.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -610,7 +666,7 @@
             "Key": "a699cf12-476a-4c1e-94f1-e161a3ec3afb",
             "Value": {
                 "id": "e21ebe44-bce6-44ec-b71f-c6e08998551f",
-                "resourcePath": "rooms\/rm_1\/rm_1.yy",
+                "resourcePath": "rooms\\rm_motel\\rm_motel.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -775,6 +831,14 @@
             }
         },
         {
+            "Key": "c91828b8-dd45-4338-b153-c0b34b6647a8",
+            "Value": {
+                "id": "f12e09b9-49c8-4fb4-ab05-7d5f774a2c73",
+                "resourcePath": "rooms\\rm_townHallMayorOffice\\rm_townHallMayorOffice.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "cb824a0a-76d0-47e7-94c5-9f9758beafcb",
             "Value": {
                 "id": "04fa0887-da43-47f2-a5db-0606e688bfe5",
@@ -823,11 +887,27 @@
             }
         },
         {
+            "Key": "d6b16313-c457-4d95-9045-f5293df78121",
+            "Value": {
+                "id": "fbf8bfa9-8293-4d9c-88d5-8cfd6d85c773",
+                "resourcePath": "rooms\\rm_ranHouse1\\rm_ranHouse1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d73d11c3-7066-4966-9cb1-3a2a41f17a8a",
             "Value": {
                 "id": "6ca37df2-589f-4c5e-a9e6-b870f5511927",
                 "resourcePath": "objects\/obj_player_health_bar\/obj_player_health_bar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dbbae61d-544d-41f5-967f-ec38de800758",
+            "Value": {
+                "id": "f62aa773-b793-4bf0-98f3-180a7a7dfd7d",
+                "resourcePath": "rooms\\rm_ezekielHouse\\rm_ezekielHouse.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
