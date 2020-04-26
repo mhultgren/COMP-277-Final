@@ -66,8 +66,8 @@
             ]
         }
     ],
-    "gridX": 16,
-    "gridY": 16,
+    "gridX": 4,
+    "gridY": 4,
     "height": 768,
     "layers": [
         {
@@ -90,7 +90,7 @@
             "isLocked": false,
             "name": "Layer 2",
             "opacity": 100,
-            "visible": true
+            "visible": false
         },
         {
             "id": "024fcc9e-8f98-4c71-838d-76f4e1fe02f5",
