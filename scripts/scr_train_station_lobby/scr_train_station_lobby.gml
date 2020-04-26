@@ -1,3 +1,5 @@
+// makes sure the initial variables are only set once,
+// using the cutscene_start variable found in the obj_cutscene object
 with instance_nearest(x, y, obj_cutscene) other.cutscene_start = cutscene_start;
 
 if (cutscene_start) {
@@ -9,6 +11,8 @@ if (cutscene_start) {
 			entity_npc = true;
 	}
 
+	// deletes the regular station attendant
+	// as his dialogue is different during the intro
 	with instance_nearest(x, y, obj_station_attendant) {
 		instance_destroy();
 	}
@@ -22,6 +26,7 @@ if (cutscene_start) {
 	with instance_nearest(x, y, obj_cutscene) cutscene_start = false;
 }
 
+// make sure to reference player when referring to the player's location
 with instance_nearest(x, y, obj_player) {
 	if (place_meeting(x, y-20, obj_ezekiel)) {
 		global.walk_to_ezekiel = false;
