@@ -17,7 +17,7 @@
 
 //item types:
 // 0: placeholder
-// 1: weapon
+// 1: item needed to progress
 // 2:
 
 curr_slot=global.item_array[global.next_fillable_item_index];
@@ -26,16 +26,30 @@ curr_slot[0]=global.next_fillable_item_index;
 curr_slot[1]=argument[0];
 
 //need to put all items associated with IDs here, each one gets its own if statement
-//inside each item object's creation code, give it a name, a description, an item type and an item object0
-//inside each item object's creation code, give it an id, a name, a description, an item type and an item object
+//inside each if statement, need to tell it what the name of the item is (in game), the description, 
+//the item type (see above for item types, if you need another add it) and the name of the object
+//associated wiht the sprite
+//if statement template:
+//curr_slot[2]="";
+//curr_slot[3]="";
+//curr_slot[10]=;
+//curr_slot[11]=obj_;
 
-if item_id==0{
-	item_object=obj_item_placeholder;
+
+
+if argument[0]==0{
+	curr_slot[2]="Test Item";
+	curr_slot[3]="this is a test, with a \ntest image";
+	curr_slot[10]=0;
+	curr_slot[11]=obj_item_placeholder;
+}
+if argument[0]==1{
+	curr_slot[2]="Motel Key";
+	curr_slot[3]="This is the key to your \nroom";
+	curr_slot[10]=1;
+	curr_slot[11]=obj_motel_key;
 }
 
-curr_slot[2]=item_object.name;
-curr_slot[3]=item_object.description;
-curr_slot[10]=item_object.item_type;
-curr_slot[11]=item_object.item_obj;
-
 global.item_array[global.next_fillable_item_index]=curr_slot;
+
+global.next_fillable_item_index+=1;

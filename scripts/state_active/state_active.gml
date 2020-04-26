@@ -27,7 +27,7 @@ if keyboard_check(ord("D")) {
 	}
 }
 
-image_index = CARDINAL_DIR;
+//image_index = CARDINAL_DIR;
 
 if (keyboard_check_pressed(ord("E"))) {
 	activate = instance_place(x+lengthdir_x(30, direction), y+lengthdir_y(30, direction), obj_entity);

@@ -25,7 +25,7 @@ if (cutscene_start) {
 }
 
 with instance_nearest(x, y, obj_player) {
-	if (x <= 158 && y <= 76) {
+	if (x <= 158 && y <= 90) {
 		global.walk_to_mayor = false;
 	
 		if (global.begin_dialogue) {
@@ -55,7 +55,7 @@ with instance_nearest(x, y, obj_player) {
 	
 	if (global.walk_to_mayor) {
 		if (x != 158) x -= player_speed;
-		if (y != 76) y -= player_speed;
+		if (y != 90) y -= player_speed;
 	}
 }
 

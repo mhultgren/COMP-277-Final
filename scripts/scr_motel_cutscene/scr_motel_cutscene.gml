@@ -19,7 +19,7 @@ if (cutscene_start) {
 }
 
 with instance_nearest(x, y, obj_player) {
-	if (x <= 45 && y <= 82) {
+	if (x <= 45 && y <= 90) {
 		global.walk_to_owner = false;
 	
 		if (global.begin_dialogue) {
@@ -43,7 +43,7 @@ with instance_nearest(x, y, obj_player) {
 	
 	if (global.walk_to_owner) {
 		if (x != 45) x -= player_speed;
-		if (y != 82) y -= player_speed;
+		if (y != 90) y -= player_speed;
 	}
 }
 

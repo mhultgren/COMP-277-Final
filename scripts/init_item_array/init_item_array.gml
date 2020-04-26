@@ -80,8 +80,10 @@ for (i=0; i<20; i+=1){
 	}
 }
 
-global.item_array[0]=[0,1,"Test item","this is a test, with a \ntest image",64,112,true,false,true,false,0,obj_item_placeholder];
+//global.item_array[0]=[0,1,"Test item","this is a test, with a \ntest image",64,112,true,false,true,false,0,obj_item_placeholder];
 
 global.item_array[20]=[20,100,"","",608,368,true,true,true,true,100,obj_item_placeholder];
 global.item_array[21]=[21,101,"","",608,496,true,true,true,true,101,obj_item_placeholder];
 global.item_array[22]=[22,102,"","",608,624,true,true,true,true,102,obj_item_placeholder];
+
+show_debug_message(global.next_fillable_item_index);

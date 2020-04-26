@@ -1,4 +1,5 @@
 if (!global.textOnScreen && leave_station) {
+	
 	y -= 1;
 }
 

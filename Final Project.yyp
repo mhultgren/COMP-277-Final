@@ -87,10 +87,18 @@
             }
         },
         {
+            "Key": "0effd008-9dd5-44f6-95a5-45e5c91b9d22",
+            "Value": {
+                "id": "a73f8d66-03f8-4248-b508-52261e4c6065",
+                "resourcePath": "objects\/obj_motel_key\/obj_motel_key.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0f792ea4-e8bd-46b9-9451-a28809ea353c",
             "Value": {
                 "id": "af3d31f5-7a28-4c29-b6b8-c475478f32d0",
-                "resourcePath": "scripts\\scr_motel_cutscene\\scr_motel_cutscene.yy",
+                "resourcePath": "scripts\/scr_motel_cutscene\/scr_motel_cutscene.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -114,7 +122,15 @@
             "Key": "10676f18-f7a3-477d-b2b5-311fa49250bd",
             "Value": {
                 "id": "ea18db14-95ce-47c1-8bc0-07c36082aa1f",
-                "resourcePath": "sprites\\spr_bellboy_fight\\spr_bellboy_fight.yy",
+                "resourcePath": "sprites\/spr_bellboy_fight\/spr_bellboy_fight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "108d58d7-742f-485c-b92b-034b42fadac8",
+            "Value": {
+                "id": "c35789e7-88bd-404c-b236-cfd4753e1a1c",
+                "resourcePath": "sprites\/spr_key\/spr_key.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -146,7 +162,7 @@
             "Key": "19a7fd04-3e76-47f1-9178-0dbf15636684",
             "Value": {
                 "id": "13590579-6b6f-4e50-a55b-d58b68e7b9ed",
-                "resourcePath": "sprites\\spr_bellboy\\spr_bellboy.yy",
+                "resourcePath": "sprites\/spr_bellboy\/spr_bellboy.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -162,7 +178,7 @@
             "Key": "1aa4917b-40ef-4ed8-afc5-add6d435f38d",
             "Value": {
                 "id": "c343e7ea-3c73-4267-8b35-4b2d956e1dc3",
-                "resourcePath": "objects\\obj_bartender\\obj_bartender.yy",
+                "resourcePath": "objects\/obj_bartender\/obj_bartender.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -202,7 +218,7 @@
             "Key": "21680d42-b1ad-41db-b578-5a090273b270",
             "Value": {
                 "id": "aae88287-0554-4519-8ddf-c2ef89593094",
-                "resourcePath": "scripts\\scr_bar\\scr_bar.yy",
+                "resourcePath": "scripts\/scr_bar\/scr_bar.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -242,7 +258,7 @@
             "Key": "2b3228dd-dea5-4555-b7ac-2928742bb695",
             "Value": {
                 "id": "ee9204b3-dd1c-4bfd-978f-771938eb6a66",
-                "resourcePath": "sprites\\spr_bartender\\spr_bartender.yy",
+                "resourcePath": "sprites\/spr_bartender\/spr_bartender.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -274,7 +290,7 @@
             "Key": "32e96d5b-96a9-4a63-8d25-87b82459616c",
             "Value": {
                 "id": "bdae36dc-7929-4e52-ac25-1360328276d4",
-                "resourcePath": "sprites\\spr_motel_owner\\spr_motel_owner.yy",
+                "resourcePath": "sprites\/spr_motel_owner\/spr_motel_owner.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -362,7 +378,7 @@
             "Key": "3dcc4e76-6e05-4167-8f19-e8030b7440e3",
             "Value": {
                 "id": "2d094d4c-6d67-47e0-b15c-9f9c0d6a39f4",
-                "resourcePath": "objects\\obj_motel_owner\\obj_motel_owner.yy",
+                "resourcePath": "objects\/obj_motel_owner\/obj_motel_owner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -690,7 +706,7 @@
             "Key": "89c4c45d-7c7d-4913-8744-a7f75c267a72",
             "Value": {
                 "id": "9b204c6f-67ba-42af-b03f-6a1c7bf32a02",
-                "resourcePath": "scripts\\scr_bellboy_cutscene\\scr_bellboy_cutscene.yy",
+                "resourcePath": "scripts\/scr_bellboy_cutscene\/scr_bellboy_cutscene.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -890,7 +906,7 @@
             "Key": "a8001425-9273-4f08-90f3-b7b5c7ab7b65",
             "Value": {
                 "id": "cd05555b-d90b-4b90-bf06-b0b296196fb3",
-                "resourcePath": "objects\\obj_bellboy\\obj_bellboy.yy",
+                "resourcePath": "objects\/obj_bellboy\/obj_bellboy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1191,6 +1207,14 @@
             }
         },
         {
+            "Key": "e2b935fe-cbb6-473c-8ec5-721ef2e3dc8f",
+            "Value": {
+                "id": "899ee4e4-2fae-4667-a606-fc1f12524743",
+                "resourcePath": "sprites\/spr_player_down\/spr_player_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e36e24e8-ebcb-4a83-b241-254d83d3e17f",
             "Value": {
                 "id": "70a96894-f93f-4d8c-986f-16f0a6c481c5",
@@ -1282,7 +1306,7 @@
             "Key": "feebebdf-8238-4a70-9862-abd74fdf4641",
             "Value": {
                 "id": "cc6db23e-6b43-4b16-9314-ded7eb75fe48",
-                "resourcePath": "sprites\\spr_cave\\spr_cave.yy",
+                "resourcePath": "sprites\/spr_cave\/spr_cave.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1328,7 +1352,8 @@
         "84ab5834-6e31-42d2-acf1-ba3101855f2f",
         "c8f0c0a5-becf-47d4-bc1a-0de2eaf2b626",
         "0851bdc5-36e0-4abd-9430-18ede2e405e8",
-        "0b39de6d-c966-4092-9bd0-73620c7f51b3"
+        "0b39de6d-c966-4092-9bd0-73620c7f51b3",
+        "89c4c45d-7c7d-4913-8744-a7f75c267a72"
     ],
     "tutorial": ""
 }
