@@ -10,3 +10,5 @@ battleEnded = false;
 init_item_array();
 init_evidence_array();
 init_options_array();
+
+game_variables();

@@ -1,1 +1,1 @@
-if (!global.textOnScreen && !global.gamePaused) script_execute(states_array[state]);
+if (!global.textOnScreen && !global.gamePaused && !global.cutscene) script_execute(states_array[state]);

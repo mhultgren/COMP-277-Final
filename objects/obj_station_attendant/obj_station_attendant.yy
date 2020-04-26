@@ -1,14 +1,14 @@
 {
-    "id": "056e51bb-a9df-4bf3-a1b7-6239b568f3ba",
+    "id": "992c5ee7-18aa-47e9-a332-8669ef968e44",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_road",
+    "name": "obj_station_attendant",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c1dd0cfc-5bca-42ce-ab60-6a5e1517536b",
+    "spriteId": "21f5bc53-aa40-4290-b7cb-070cfea8e330",
     "visible": true
 }

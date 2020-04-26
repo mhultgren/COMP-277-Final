@@ -44,10 +44,10 @@
         "0a79b116-de29-485b-9351-9e0935f898b8",
         "e8455961-7ad0-4036-ad54-3434164809b2",
         "5794b353-a4e7-47d3-9bf7-e9c5f6a37ce6",
-        "a7064232-b6ee-4123-aaaa-030f29fdb8bf",
         "6028dc92-29ac-4704-b9d7-374036f596f7",
         "700ff100-fcb6-4e0b-b39a-61dcc1ea65a7",
-        "b05d18ff-8d4a-4690-98fc-45d7f3e6f09f"
+        "b05d18ff-8d4a-4690-98fc-45d7f3e6f09f",
+        "bbc2dfcc-c552-42b2-b7fc-4506e0daf876"
     ],
     "IsDnD": false,
     "layers": [
@@ -204,7 +204,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_316EE722","id": "a7064232-b6ee-4123-aaaa-030f29fdb8bf","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 3,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_316EE722","objId": "c84e1422-57d6-4ebc-9909-a85b596e312a","properties": [{"id": "e5b1e037-baaa-48b4-81db-7922ec22f30a","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "8b85ed26-b24f-45c6-8a8c-915fc0b14251","mvc": "1.0","value": "scr_new_text_box"},{"id": "99bdc212-f343-4f02-8230-146e59677405","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "08bf39e1-ac9f-4730-8a49-7755e4f2b129","mvc": "1.0","value": "[\"Hey there stranger!\", 0, [\"1:Hey man\", \"2:Fuck off\"] ]"},{"id": "56193c68-a2e5-46ed-8385-064d13f78671","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "28a173a1-d324-483b-9ffe-0e54e8ad11b4","mvc": "1.0","value": "True"},{"id": "beb35891-093a-4d5e-8c4c-65802e09d068","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "9d54aceb-01af-4263-b43c-3620b8a4d282","mvc": "1.0","value": "True"}],"rotation": 0,"scaleX": 2,"scaleY": 1,"mvc": "1.1","x": 160,"y": 80}
+{"name": "inst_3822A875","id": "bbc2dfcc-c552-42b2-b7fc-4506e0daf876","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_3822A875.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3822A875","objId": "c84e1422-57d6-4ebc-9909-a85b596e312a","properties": [{"id": "bc7e8ced-0491-48b4-9e5b-3be73da01658","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "8b85ed26-b24f-45c6-8a8c-915fc0b14251","mvc": "1.0","value": "scr_new_text_box"},{"id": "4a074499-8f78-4a93-b033-6180f90fff6e","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "08bf39e1-ac9f-4730-8a49-7755e4f2b129","mvc": "1.0","value": "[\"Welcome to the town hall!\\nMayor's office is to the left.\"]"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 144,"y": 96}
             ],
             "layers": [
 
