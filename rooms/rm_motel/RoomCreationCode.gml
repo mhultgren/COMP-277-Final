@@ -5,3 +5,10 @@ if (!instance_exists(obj_player)) {
 		instance_create_layer(global.target_x, global.target_y, "Player", obj_player);
 	}
 }
+
+if (global.mayor_cutscene && !global.motel_cutscene) {
+	global.motel_cutscene = true;
+	with instance_create_layer(x, y, "Player", obj_cutscene) {
+		script = scr_motel_cutscene;
+	}
+}

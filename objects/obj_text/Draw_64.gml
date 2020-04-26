@@ -1,4 +1,8 @@
 /// @desc Draw Textbox
+NineSliceBoxStretched(spr_textBox, x1, y1-30, x1+120, y1+30, background);
+draw_set_color(c_white);
+draw_text(x1+name_text_x, y1-20, speaker_name);
+
 NineSliceBoxStretched(spr_textBox, x1, y1, x2, y2, background);
 draw_set_font(global.pixel_font);
 draw_set_halign(fa_center);

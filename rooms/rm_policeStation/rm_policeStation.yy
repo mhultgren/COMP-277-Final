@@ -44,7 +44,6 @@
         "d80c96a3-f5bc-4c6c-ae4d-8bb0422158f8",
         "eb7c1eb3-aec9-488d-8fab-97ca10bb7e74",
         "521ea6eb-5e2c-4b42-8dec-d3885b0ece87",
-        "ed0a2214-1a45-4987-90ba-20d77bd9cf6c",
         "7e6c2ea2-ab3c-461f-9f9c-0e637e29098c",
         "3d6099c5-9180-4885-9461-a72710e76fc4"
     ],
@@ -202,7 +201,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_7001E248","id": "ed0a2214-1a45-4987-90ba-20d77bd9cf6c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 3,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7001E248","objId": "c84e1422-57d6-4ebc-9909-a85b596e312a","properties": [{"id": "dbc61576-d37e-46d6-872f-66a498bdb5ad","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "8b85ed26-b24f-45c6-8a8c-915fc0b14251","mvc": "1.0","value": "scr_new_text_box"},{"id": "25e234f1-445d-4fa5-8f28-3a7c3cd24567","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "08bf39e1-ac9f-4730-8a49-7755e4f2b129","mvc": "1.0","value": "[\"Hey there stranger!\", 0, [\"1:Hey man\", \"2:Fuck off\"] ]"},{"id": "77a02d1e-b929-45ea-bbdc-bd392ed49a0c","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "28a173a1-d324-483b-9ffe-0e54e8ad11b4","mvc": "1.0","value": "True"},{"id": "a20abe31-d95b-4d6d-9b2b-fb7fed2dda6e","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "9d54aceb-01af-4263-b43c-3620b8a4d282","mvc": "1.0","value": "True"}],"rotation": 0,"scaleX": 2,"scaleY": 1,"mvc": "1.1","x": 112,"y": 16}
+
             ],
             "layers": [
 

@@ -13,7 +13,7 @@ miss = false;
 miss_counter = 0;
 
 attacking = false;
-attacking_string = "HIYA!!";
+attacking_string = "yu realy suckk, man";
 attacking_counter = 0;
 
 image_xscale = 0;

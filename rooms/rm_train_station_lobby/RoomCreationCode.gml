@@ -1,4 +1,4 @@
-surface_resize(application_surface,640,480);
+surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H);
 
 if (!instance_exists(obj_player)) {
 	if (global.target_x == noone || global.target_y == noone) {

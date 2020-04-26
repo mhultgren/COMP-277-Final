@@ -2,7 +2,7 @@
     "id": "feebebdf-8238-4a70-9862-abd74fdf4641",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite29",
+    "name": "spr_cave",
     "For3D": false,
     "HTile": false,
     "VTile": false,

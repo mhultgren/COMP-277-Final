@@ -1,3 +1,4 @@
+/// @arg Name
 /// @arg Message
 /// @arg Background
 /// @arg Responses
@@ -9,17 +10,18 @@ var obj;
 if (instance_exists(obj_text)) obj = obj_text_queued;
 else obj = obj_text;
 
-with (instance_create_layer(x, y, "Instances", obj)) {
-	message = argument[0];
+with (instance_create_layer(x, y, "Entities", obj)) {
+	speaker_name = argument[0];
+	message = argument[1];
 	
 	if (instance_exists(other)) originInstance = other.id;
 	else originInstance = noone;
 	
-	if (argument_count > 1) background = argument[1];
+	if (argument_count > 2) background = argument[2];
 	else background = 0;
 	
-	if (argument_count > 2) {
-		responses = argument[2];
+	if (argument_count > 3) {
+		responses = argument[3];
 		
 		for (var i=0; i<array_length_1d(responses); i++) {
 			var marker_position = string_pos(":", responses[i]);

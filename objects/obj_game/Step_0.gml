@@ -19,7 +19,6 @@ if (keyboard_check_pressed(vk_escape)) {
 			room_goto(pausedRoom);
 			image_speed = gamePausedSpeed;
 			room_persistent = false;
-			//justPaused=true;
 		}
 	}
 }

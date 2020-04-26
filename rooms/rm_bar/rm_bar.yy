@@ -45,8 +45,8 @@
         "a526fd30-d376-486c-9280-47a6e3bc588f",
         "673bba1d-c102-4d6d-b03d-aeca448c403e",
         "582d9674-71d2-4aa1-b877-793306e9dc7b",
-        "fbd90d6a-ab6d-4809-a29b-f2c54b6c3c94",
-        "edf59fae-033a-47c2-a1c1-a88a3c7b2eea"
+        "edf59fae-033a-47c2-a1c1-a88a3c7b2eea",
+        "30d623be-73b5-4b6e-ba77-3fb7ba792323"
     ],
     "IsDnD": false,
     "layers": [
@@ -202,7 +202,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_77FA18A4","id": "fbd90d6a-ab6d-4809-a29b-f2c54b6c3c94","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 3,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_77FA18A4","objId": "c84e1422-57d6-4ebc-9909-a85b596e312a","properties": [{"id": "f3b5f8ca-a796-4447-9f6e-1636eab5cc29","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "8b85ed26-b24f-45c6-8a8c-915fc0b14251","mvc": "1.0","value": "scr_new_text_box"},{"id": "8e603ac7-aa84-45e5-b85a-208a73f4f8aa","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "08bf39e1-ac9f-4730-8a49-7755e4f2b129","mvc": "1.0","value": "[\"Hey there stranger!\", 0, [\"1:Hey man\", \"2:Fuck off\"] ]"},{"id": "a3ea194c-327e-4001-8696-aa57728448f5","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "28a173a1-d324-483b-9ffe-0e54e8ad11b4","mvc": "1.0","value": "True"},{"id": "a02ee684-f02b-4b4d-a616-7e4dd733fe06","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "9d54aceb-01af-4263-b43c-3620b8a4d282","mvc": "1.0","value": "True"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 160,"y": 96}
+{"name": "inst_E59FD39","id": "30d623be-73b5-4b6e-ba77-3fb7ba792323","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_E59FD39","objId": "1aa4917b-40ef-4ed8-afc5-add6d435f38d","properties": [{"id": "6911e2c9-8f77-4665-a7dc-87e1bf8b0555","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "8b85ed26-b24f-45c6-8a8c-915fc0b14251","mvc": "1.0","value": "scr_new_text_box"},{"id": "e1a88d3d-575f-4900-8579-57bfbd7b8cf1","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "08bf39e1-ac9f-4730-8a49-7755e4f2b129","mvc": "1.0","value": "[\"BARTENDER\", \"I'd serve you a drink if you weren't on the job.\"]"},{"id": "8048489f-986b-4123-872f-2bcc50df4fe3","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "28a173a1-d324-483b-9ffe-0e54e8ad11b4","mvc": "1.0","value": "0"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 129,"y": 24}
             ],
             "layers": [
 

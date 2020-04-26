@@ -5,3 +5,5 @@ if (!instance_exists(obj_player)) {
 		instance_create_layer(global.target_x, global.target_y, "Player", obj_player);
 	}
 }
+
+scr_bar();

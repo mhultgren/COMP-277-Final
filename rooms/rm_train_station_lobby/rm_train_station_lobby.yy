@@ -103,8 +103,8 @@
         "c510b578-162b-4db3-9677-4fccaf470fb5",
         "3794fd82-4ff9-4409-8b75-9a98c6e37a2e",
         "23ad5ebb-7649-44b9-8993-c22ed9f82620",
-        "ff432027-0fe4-4357-b331-595fffce670b",
-        "040723e6-b2ec-4ef9-872a-bb91f7f0e03c"
+        "040723e6-b2ec-4ef9-872a-bb91f7f0e03c",
+        "bc36a471-1356-4b48-a7dc-0a352a902541"
     ],
     "IsDnD": false,
     "layers": [
@@ -172,7 +172,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_66B6AB5F","id": "040723e6-b2ec-4ef9-872a-bb91f7f0e03c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_66B6AB5F","objId": "992c5ee7-18aa-47e9-a332-8669ef968e44","properties": [{"id": "9de54705-fe56-4399-99f4-58a06f49ffa4","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "8b85ed26-b24f-45c6-8a8c-915fc0b14251","mvc": "1.0","value": "scr_new_text_box"},{"id": "549ced93-d48b-4bd0-9b1d-0e6b27aee7fa","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "08bf39e1-ac9f-4730-8a49-7755e4f2b129","mvc": "1.0","value": "[\"Sorry, next train isn't til Sunday.\", 0, [\"0:OK\", \"7:What kind of service is this?!\"]]"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 32,"y": 32}
+{"name": "inst_66B6AB5F","id": "040723e6-b2ec-4ef9-872a-bb91f7f0e03c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_66B6AB5F","objId": "992c5ee7-18aa-47e9-a332-8669ef968e44","properties": [{"id": "9de54705-fe56-4399-99f4-58a06f49ffa4","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "8b85ed26-b24f-45c6-8a8c-915fc0b14251","mvc": "1.0","value": "scr_new_text_box"},{"id": "549ced93-d48b-4bd0-9b1d-0e6b27aee7fa","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "08bf39e1-ac9f-4730-8a49-7755e4f2b129","mvc": "1.0","value": "[\"RYAN\", \"Sorry, next train isn't til Sunday.\", 1, [\"0:OK\", \"7:What kind of service is this?!\"]]"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 32,"y": 32}
             ],
             "layers": [
 
@@ -198,7 +198,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_2E739440","id": "ff432027-0fe4-4357-b331-595fffce670b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2E739440","objId": "c15229c8-91bc-4778-97b0-bf9af3c3941e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 105,"y": 139}
+{"name": "inst_5D7D0890","id": "bc36a471-1356-4b48-a7dc-0a352a902541","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5D7D0890","objId": "c15229c8-91bc-4778-97b0-bf9af3c3941e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 256,"y": 192}
             ],
             "layers": [
 

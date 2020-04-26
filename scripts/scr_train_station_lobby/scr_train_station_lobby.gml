@@ -19,7 +19,7 @@ if (cutscene_start) {
 
 	with instance_create_layer(31, 31, "Entities", obj_station_attendant) {
 			entity_activate_script = scr_new_text_box;
-			entity_activate_args = ["Don't talk to me, I'm busy.", 1];
+			entity_activate_args = ["RYAN", "Don't talk to me, I'm busy.", 1];
 			entity_npc = true;
 	}
 	
@@ -32,7 +32,7 @@ with instance_nearest(x, y, obj_player) {
 		global.walk_to_ezekiel = false;
 	
 		if (global.ezekiel_dialogue) {
-			scr_new_text_box("Welcome to town! Hope the trip wasn't too boring.", 2, 
+			scr_new_text_box("EZEKIEL", "Welcome to town! Hope the trip wasn't too boring.", 2, 
 						["5:It was nice!", 
 						"6:That was the most boring train ride I've ever taken."]);
 		
