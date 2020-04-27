@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "07d97519-5996-4e25-9a5d-01f4eb2bfc98",
+            "Value": {
+                "id": "9d6155d1-cadd-47e3-aeb1-ea4a346d805d",
+                "resourcePath": "rooms\\rm_your_room\\rm_your_room.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0851bdc5-36e0-4abd-9430-18ede2e405e8",
             "Value": {
                 "id": "2a1838c4-ce4d-427b-9c8f-ee5d0a202b29",
@@ -935,6 +943,14 @@
             }
         },
         {
+            "Key": "a9e08bfc-98ae-42d2-94a1-bcf8aa05298e",
+            "Value": {
+                "id": "b612e437-c64a-4400-867b-e0a6ffd429d0",
+                "resourcePath": "scripts\\scr_motel_night_1\\scr_motel_night_1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "aa5b0fc3-b3ec-41cb-8230-307dd29a2616",
             "Value": {
                 "id": "98d3bc01-4d05-40dd-844c-56bf8c47ba50",
@@ -964,6 +980,14 @@
                 "id": "a8d0d84f-7698-448b-8276-b417e4e3901e",
                 "resourcePath": "objects\/obj_text\/obj_text.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b77e2d6e-e75e-4e36-a5c0-eee1ea226ee7",
+            "Value": {
+                "id": "45578056-b3b4-4766-917d-167ab384bafd",
+                "resourcePath": "scripts\\scr_add_evidence\\scr_add_evidence.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1344,6 +1368,7 @@
         "0e8fe30f-72a6-417e-9551-2197dfa4fb59",
         "0f792ea4-e8bd-46b9-9451-a28809ea353c",
         "21680d42-b1ad-41db-b578-5a090273b270",
+        "89c4c45d-7c7d-4913-8744-a7f75c267a72",
         "f316442e-5980-4930-94df-759cbf1fe6b3",
         "8200c8a8-37c1-48a2-8f46-022cd8e25304",
         "11cff18d-f07b-42f8-8472-935391f4d4c1",
@@ -1353,7 +1378,7 @@
         "c8f0c0a5-becf-47d4-bc1a-0de2eaf2b626",
         "0851bdc5-36e0-4abd-9430-18ede2e405e8",
         "0b39de6d-c966-4092-9bd0-73620c7f51b3",
-        "89c4c45d-7c7d-4913-8744-a7f75c267a72"
+        "b77e2d6e-e75e-4e36-a5c0-eee1ea226ee7"
     ],
     "tutorial": ""
 }

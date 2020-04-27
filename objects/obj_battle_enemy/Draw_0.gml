@@ -26,8 +26,13 @@ if (miss) {
 }
 
 if (attacking) {
+	if (!phrase_picked) {
+		attack_phrase = irandom(array_length_1d(attacking_strings)-1);
+		phrase_picked = true;
+	}
+	
 	draw_set_alpha(1 - (attacking_counter / room_speed));
 	draw_text_transformed(x + 64 +  (attacking_counter/2), y - 64 - (attacking_counter/2),
-		attacking_string, 1.75, 1.75, 0);
+		attacking_strings[attack_phrase], 1.75, 1.75, 0);
 	draw_set_alpha(1);
 }

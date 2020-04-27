@@ -13,8 +13,9 @@ miss = false;
 miss_counter = 0;
 
 attacking = false;
-attacking_string = "yu realy suckk, man";
+attacking_strings = ["yu realy suckk, man", "*BELCH*", "yu messed wit the wrong guy, pal"];
 attacking_counter = 0;
+phrase_picked = false;
 
 image_xscale = 0;
 image_yscale = 0;

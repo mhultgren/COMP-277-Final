@@ -9,9 +9,11 @@ if (!instance_exists(obj_player)) {
 // make sure to declare new global variables relating to cutscenes
 // or other events which will only happen sometimes
 // in the game_variables script
-if (!global.mayor_cutscene) {
-	global.mayor_cutscene = true;
-	with instance_create_layer(x, y, "Player", obj_cutscene) {
-		script = scr_mayor_cutscene;
+if (global.day_number == 1) {
+	if (!global.mayor_cutscene) {
+		global.mayor_cutscene = true;
+		with instance_create_layer(x, y, "Player", obj_cutscene) {
+			script = scr_mayor_cutscene;
+		}
 	}
 }

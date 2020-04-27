@@ -35,8 +35,6 @@ curr_slot[1]=argument[0];
 //curr_slot[10]=;
 //curr_slot[11]=obj_;
 
-
-
 if argument[0]==0{
 	curr_slot[2]="Test Item";
 	curr_slot[3]="this is a test, with a \ntest image";

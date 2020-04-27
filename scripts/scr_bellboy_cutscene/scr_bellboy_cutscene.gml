@@ -7,7 +7,8 @@ if (cutscene_start) {
 
 	scr_new_text_box("BELLBOY", "ouch! not cool at all, man..", 4);
 	scr_new_text_box("BELLBOY", "i cant blieve im doing this, but here's yur room key\nyu bettr not be lying or im fired", 4);
-	scr_new_text_box("BELLBOY", "this is our only key too so keep it close, ok??\n[You got the room key! It's in your inventory]", 4);
+	scr_new_text_box("BELLBOY", "this is our only key too so keep it close, ok??", 4);
+	scr_new_text_box("TIP", "You got the room key! It's in your inventory.", 5);
 	add_new_item(1);
 	scr_new_text_box("BELLBOY", "IM OUT!", 4);
 }

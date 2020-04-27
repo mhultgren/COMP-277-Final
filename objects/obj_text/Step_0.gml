@@ -1,6 +1,6 @@
 if (!global.gamePaused) {
 	lerpProgress += (1 - lerpProgress) / 50;
-	textProgress += global.textSpeed;
+	textProgress = clamp(textProgress+global.textSpeed, 0, string_length(message));;
 
 	x1 = lerp(x1, x1Target, lerpProgress);
 	x2 = lerp(x2, x2Target, lerpProgress);

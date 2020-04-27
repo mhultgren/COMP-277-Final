@@ -25,5 +25,14 @@ switch(argument0) {
 		global.battle_room = room; global.bellboy_fought = true; break;
 	case 11: scr_new_text_box("BELLBOY", "yu mus think im stupid huh? i won jus \ngive yu your room key without my boss' consent", 4, ["12:Then come to the motel and you can talk to her.", "10:I'm done with this (Fight)"]); break;
 	case 12: scr_new_text_box("BELLBOY", "i thinq ill stay here", 4, ["0:Fine.. (back off)", "10:Guess I'll just have to change your mind, then (Fight)"]); break;
+	case 13: scr_new_text_box("BARTENDER", "Sounds like you've got a shit job.");
+	case 14: 
+		scr_new_text_box("MOTEL OWNER", "You weren't hurt were you? If so, \njust know I wont be held responsible.", 3);
+		scr_new_text_box("MOTEL OWNER", "Your room is through the door on the far right. Rest up!", 3);
+		break;
+	case 15:
+		scr_new_text_box("MOTEL OWNER", "Good to hear!", 3);
+		scr_new_text_box("MOTEL OWNER", "Your room is through the door on the far right. Rest up!", 3);
+		break;
 	default: break;
 }

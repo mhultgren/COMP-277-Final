@@ -12,7 +12,8 @@
         "84ab5834-6e31-42d2-acf1-ba3101855f2f",
         "c8f0c0a5-becf-47d4-bc1a-0de2eaf2b626",
         "0851bdc5-36e0-4abd-9430-18ede2e405e8",
-        "0b39de6d-c966-4092-9bd0-73620c7f51b3"
+        "0b39de6d-c966-4092-9bd0-73620c7f51b3",
+        "b77e2d6e-e75e-4e36-a5c0-eee1ea226ee7"
     ],
     "filterType": "GMScript",
     "folderName": "Systems",

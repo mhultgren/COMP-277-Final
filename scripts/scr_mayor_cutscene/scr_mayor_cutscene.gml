@@ -46,9 +46,14 @@ with instance_nearest(x, y, obj_player) {
 			scr_new_text_box("MAYOR", "And after that was our most recent, a tourist \nstaying at the inn.");
 			scr_new_text_box("MAYOR", "So far we have no evidence of foul play, but \nclearly something is awry.");
 			scr_new_text_box("MAYOR", "You'll want to catch up with Horace's wife, \nif anyone has the best idea of what happened,\nit's her.");
+			
+			scr_add_evidence(0, "Horace's wife wants to talk about his disappearance.");
+			
 			scr_new_text_box("MAYOR", "We'll talk more about it in the morning though,\nI'm sure you're tired.");
 			scr_new_text_box("MAYOR", "You can head to the motel nearby, we've got a room \nfor you there.");
-		
+			
+			scr_new_text_box("TIP", "Check all collected evidence in the EVIDENCE MENU.\nPress ESC to go there!", 5);
+			
 			global.begin_dialogue = false;
 		}
 	}

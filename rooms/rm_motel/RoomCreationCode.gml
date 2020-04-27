@@ -6,9 +6,15 @@ if (!instance_exists(obj_player)) {
 	}
 }
 
-if (global.mayor_cutscene && !global.motel_cutscene) {
-	global.motel_cutscene = true;
-	with instance_create_layer(x, y, "Player", obj_cutscene) {
-		script = scr_motel_cutscene;
+if (global.day_number == 1) {
+	if (global.mayor_cutscene && !global.motel_cutscene) {
+		global.motel_cutscene = true;
+		with instance_create_layer(x, y, "Player", obj_cutscene) {
+			script = scr_motel_cutscene;
+		}
+	}
+
+	if (global.bellboy_fought) {
+		scr_motel_night_1();
 	}
 }
