@@ -17,6 +17,7 @@ if (cutscene_start) {
 	}
 
 	with instance_create_layer(158, 32, "Entities", obj_mayor) {
+		image_index=3;
 		entity_activate_script = scr_new_text_box;
 		entity_activate_args = ["PERCY", "You can head to the motel nearby, we've got a room \nfor you there."];
 		entity_npc = true;
