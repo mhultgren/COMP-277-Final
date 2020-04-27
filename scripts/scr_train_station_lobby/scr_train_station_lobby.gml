@@ -6,9 +6,11 @@ if (cutscene_start) {
 	global.cutscene = true;
 	global.ezekiel_dialogue = true;
 	global.walk_to_ezekiel = true;
+	obj_player.sprite_index=spr_player_up;
 	
 	with instance_create_layer(220, 126, "Entities", obj_ezekiel) {
 			entity_npc = true;
+			image_index=3;
 	}
 
 	// deletes the regular station attendant
@@ -30,6 +32,7 @@ if (cutscene_start) {
 with instance_nearest(x, y, obj_player) {
 	if (place_meeting(x, y-20, obj_ezekiel)) {
 		global.walk_to_ezekiel = false;
+		obj_player.sprite_index=spr_player_up_idle;
 	
 		if (global.ezekiel_dialogue) {
 			scr_new_text_box("EZEKIEL", "Welcome to town! Hope the trip wasn't too boring.", 2, 

@@ -11,6 +11,7 @@ if (global.day_number == 1) {
 		}
 	
 		with instance_create_layer(191, 52, "Entities", obj_bellboy) {
+			entity_npc=true;
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["BELLBOY", "And what're you lookin' at?", 4, ["8:You.", "9:I don't want trouble."]];
 		}

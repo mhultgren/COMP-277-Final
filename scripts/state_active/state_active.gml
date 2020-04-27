@@ -1,31 +1,49 @@
 // use obj_boundary on room to set invisible walls
 if keyboard_check(ord("W")) {
 	direction = 90;
+	sprite_index=spr_player_up;
 	if !place_meeting(x, y - player_speed, obj_tangible) {
 		y -= player_speed;
 	}
 }
+if keyboard_check_released(ord("W")){
+	sprite_index=spr_player_up_idle;
+}
+
 
 if keyboard_check(ord("A")) {
 	direction = 180;
+	sprite_index=spr_player_left;
 	if !place_meeting(x - player_speed, y, obj_tangible) {
 		x -= player_speed;
 	}
 }
+if keyboard_check_released(ord("A")){
+	sprite_index=spr_player_left_idle;
+}
 
 if keyboard_check(ord("S")) {
 	direction = 270;
+	sprite_index=spr_player_down;
 	if !place_meeting(x, y + player_speed, obj_tangible) {
 		y += player_speed;
 	}
 }
+if keyboard_check_released(ord("S")){
+	sprite_index=spr_player_down_idle;
+}
 
 if keyboard_check(ord("D")) {
 	direction = 0;
+	sprite_index=spr_player_right;
 	if !place_meeting(x + player_speed, y, obj_tangible) {
 		x += player_speed;
 	}
 }
+if keyboard_check_released(ord("D")){
+	sprite_index=spr_player_right_idle;
+}
+
 
 //image_index = CARDINAL_DIR;
 

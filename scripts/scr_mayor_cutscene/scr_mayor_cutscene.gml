@@ -4,6 +4,7 @@ if (cutscene_start) {
 	global.cutscene = true;
 	global.begin_dialogue = true;
 	global.walk_to_mayor = true;
+	obj_player.sprite_index=spr_player_left;
 	
 	with instance_create_layer(110, 80, "Entities", obj_ezekiel) {
 		entity_activate_script = scr_new_text_box;
@@ -15,7 +16,7 @@ if (cutscene_start) {
 		instance_destroy();
 	}
 
-	with instance_create_layer(158, 16, "Entities", obj_mayor) {
+	with instance_create_layer(158, 32, "Entities", obj_mayor) {
 		entity_activate_script = scr_new_text_box;
 		entity_activate_args = ["MAYOR", "You can head to the motel nearby, we've got a room \nfor you there."];
 		entity_npc = true;
@@ -25,9 +26,11 @@ if (cutscene_start) {
 }
 
 with instance_nearest(x, y, obj_player) {
-	if (x <= 158 && y <= 90) {
+	if (x <= 158 && y <= 80) {
 		global.walk_to_mayor = false;
-	
+		
+		obj_player.sprite_index=spr_player_up_idle;
+		
 		if (global.begin_dialogue) {
 			scr_new_text_box("MAYOR", "Welcome to 'PLACEHOLDER TOWN NAME.' My name's mayor,\nthe mayor of this here town.");
 			scr_new_text_box("MAYOR", "You're that supernatural detective Ezekiel's been talking about?", 0, ["0:That's me."]);
@@ -60,7 +63,7 @@ with instance_nearest(x, y, obj_player) {
 	
 	if (global.walk_to_mayor) {
 		if (x != 158) x -= player_speed;
-		if (y != 90) y -= player_speed;
+		if (y != 80) y -= player_speed;
 	}
 }
 

@@ -1,5 +1,5 @@
 if (!global.textOnScreen && leave_station) {
-	
+	image_index=1;
 	y -= 1;
 }
 
