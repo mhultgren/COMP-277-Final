@@ -1,4 +1,8 @@
-//show_debug_message(string(room_persistent));
+if (just_unpaused) {
+	with (all) image_speed = gamePausedSpeed;
+	just_unpaused = false;
+}
+
 if (keyboard_check_pressed(vk_escape)) {
 	if (global.textOnScreen==false && room != rm_battle) {
 		
@@ -16,8 +20,8 @@ if (keyboard_check_pressed(vk_escape)) {
 			room_persistent = true;
 			room_goto(pause_menu);
 		} else {
+			just_unpaused = true;
 			room_goto(pausedRoom);
-			image_speed = gamePausedSpeed;
 			room_persistent = false;
 		}
 	}
@@ -30,7 +34,6 @@ if (battleEnded) {
 
 global.current_player_health = clamp(global.current_player_health, 0, global.player_health);
 
-// UPDATE ONCE WE HAVE A GAME OVER
 if (global.current_player_health == 0) {
 	game_restart();
 }

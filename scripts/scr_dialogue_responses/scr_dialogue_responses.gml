@@ -27,12 +27,12 @@ switch(argument0) {
 	case 12: scr_new_text_box("BELLBOY", "i thinq ill stay here", 4, ["0:Fine.. (back off)", "10:Guess I'll just have to change your mind, then (Fight)"]); break;
 	case 13: scr_new_text_box("BARTENDER", "Sounds like you've got a shit job.");
 	case 14: 
-		scr_new_text_box("MOTEL OWNER", "You weren't hurt were you? If so, \njust know I wont be held responsible.", 3);
-		scr_new_text_box("MOTEL OWNER", "Your room is through the door on the far right. Rest up!", 3);
+		scr_new_text_box("KAREN", "You weren't hurt were you? If so, \njust know I wont be held responsible.", 3);
+		scr_new_text_box("KAREN", "Your room is through the door on the far right. Rest up!", 3);
 		break;
 	case 15:
-		scr_new_text_box("MOTEL OWNER", "Good to hear!", 3);
-		scr_new_text_box("MOTEL OWNER", "Your room is through the door on the far right. Rest up!", 3);
+		scr_new_text_box("KAREN", "Good to hear!", 3);
+		scr_new_text_box("KAREN", "Your room is through the door on the far right. Rest up!", 3);
 		break;
 	default: break;
 }

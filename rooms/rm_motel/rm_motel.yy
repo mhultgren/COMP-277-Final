@@ -51,8 +51,7 @@
         "ac621260-7363-4674-819a-8ae0153272b8",
         "6a28c10f-b018-4662-b5ca-97625f7f7afd",
         "0a9aaf87-1a3c-4b7d-a5c1-456dd783c33e",
-        "125c8978-5f50-41d8-910e-6b53e80a1202",
-        "012dbc36-6d89-4164-b67f-4d5f78da2f98"
+        "125c8978-5f50-41d8-910e-6b53e80a1202"
     ],
     "IsDnD": false,
     "layers": [
@@ -213,8 +212,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_13E84282","id": "fe52aebe-15fa-4a72-beea-9a2a465373a3","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_13E84282","objId": "3dcc4e76-6e05-4167-8f19-e8030b7440e3","properties": [{"id": "6572712f-769d-4ccd-a83e-051055d56cbb","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "28a173a1-d324-483b-9ffe-0e54e8ad11b4","mvc": "1.0","value": "True"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 44,"y": 40},
-{"name": "inst_6B592361","id": "012dbc36-6d89-4164-b67f-4d5f78da2f98","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6B592361","objId": "3dcc4e76-6e05-4167-8f19-e8030b7440e3","properties": [{"id": "8efc4045-7234-4852-b812-0125c702f2ce","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "8b85ed26-b24f-45c6-8a8c-915fc0b14251","mvc": "1.0","value": "scr_new_text_box"},{"id": "a90416ff-60ed-4169-85ea-894913eca574","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "08bf39e1-ac9f-4730-8a49-7755e4f2b129","mvc": "1.0","value": "[\"MOTEL OWNER\", \"Sorry, that room's off limits.\", 4, [\"0:Ok\"]]"},{"id": "77aadf85-4503-49e6-9aab-ae9e6da98a2e","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "28a173a1-d324-483b-9ffe-0e54e8ad11b4","mvc": "1.0","value": "True"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 143,"y": 2}
+{"name": "inst_13E84282","id": "fe52aebe-15fa-4a72-beea-9a2a465373a3","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_13E84282","objId": "3dcc4e76-6e05-4167-8f19-e8030b7440e3","properties": [{"id": "6572712f-769d-4ccd-a83e-051055d56cbb","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "28a173a1-d324-483b-9ffe-0e54e8ad11b4","mvc": "1.0","value": "True"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 44,"y": 40}
             ],
             "layers": [
 
