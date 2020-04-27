@@ -27,6 +27,6 @@ if (appearing) {
 	}
 }
 
-draw_text_ext_transformed(x, y, drawn_text, 15, 430, 1, 1, 0);
+draw_text_ext_transformed(draw_x, y, drawn_text, 15, 430, 1, 1, 0);
 
 draw_set_alpha(1);

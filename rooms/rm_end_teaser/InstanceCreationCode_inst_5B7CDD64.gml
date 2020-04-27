@@ -2,4 +2,5 @@ exposition_text[0] = "Coming up... the detective wakes up to a new disappearance
 exposition_text[1] = "In the town of Coolsville, no one is safe from suspicion...";
 exposition_text[2] = "To Be Continued!"
 
+draw_x = draw_x + 200;
 drawn_text = exposition_text[0];
