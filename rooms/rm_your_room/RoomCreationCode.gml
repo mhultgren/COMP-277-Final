@@ -6,4 +6,4 @@ if (!instance_exists(obj_player)) {
 	}
 }
 
-room_goto(rm_end_teaser);
+if (global.day_number == 1) room_goto(rm_end_teaser);

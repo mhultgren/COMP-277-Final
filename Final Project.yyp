@@ -1330,7 +1330,7 @@
             "Key": "d6b16313-c457-4d95-9045-f5293df78121",
             "Value": {
                 "id": "fbf8bfa9-8293-4d9c-88d5-8cfd6d85c773",
-                "resourcePath": "rooms\/rm_ranHouse1\/rm_ranHouse1.yy",
+                "resourcePath": "rooms\\rm_horaceHouse\\rm_horaceHouse.yy",
                 "resourceType": "GMRoom"
             }
         },

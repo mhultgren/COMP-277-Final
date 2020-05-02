@@ -34,5 +34,16 @@ switch(argument0) {
 		scr_new_text_box("KAREN", "Good to hear!", 3);
 		scr_new_text_box("KAREN", "Your room is through the door on the far right. Rest up!", 3);
 		break;
+	case 16:
+		scr_new_text_box("KAREN", "Good to hear. They should be expecting you at Horace's \nhouse to do some investigating.", 3);
+		scr_new_text_box("KAREN", "Well, what are you waiting for? Hop to it!", 3);
+		scr_new_text_box("KAREN", "Oh, and before I forget, my good-for-nothing \nBellboy's gone missing again. If you see him, give \nhim another good trouncing for me.", 3);
+		break;
+	case 17:
+		scr_new_text_box("KAREN", "Too bad, you're here now, and the next train isn't til \nSunday, so you might as well get to work.", 3);
+		scr_new_text_box("KAREN", "They should be expecting you at Horace's \nhouse to do some investigating.", 3);
+		scr_new_text_box("KAREN", "Now stop your grumbling and get to work!", 3);
+		scr_new_text_box("KAREN", "Oh, and before I forget, my good-for-nothing \nBellboy's gone missing again. If you see him, give him another good trouncing for me.", 3);
+		break;
 	default: break;
 }

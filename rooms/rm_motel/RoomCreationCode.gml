@@ -18,3 +18,15 @@ if (global.day_number == 1) {
 		scr_motel_night_1();
 	}
 }
+
+if (global.day_number == 2) {
+	with instance_nearest(x, y, obj_motel_owner) {
+		instance_destroy();
+	}
+
+	with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+		entity_activate_script = scr_new_text_box;
+		entity_activate_args = ["KAREN", "Morning detective. Ready to work?", 3, ["16:I was born ready.", "17:I'd rather stay in bed if that's OK.."]];
+		entity_npc = true;
+	}
+}

@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_ranHouse1",
+    "name": "rm_horaceHouse",
     "id": "d6b16313-c457-4d95-9045-f5293df78121",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
