@@ -43,7 +43,31 @@ switch(argument0) {
 		scr_new_text_box("KAREN", "Too bad, you're here now, and the next train isn't til \nSunday, so you might as well get to work.", 3);
 		scr_new_text_box("KAREN", "They should be expecting you at Horace's \nhouse to do some investigating.", 3);
 		scr_new_text_box("KAREN", "Now stop your grumbling and get to work!", 3);
-		scr_new_text_box("KAREN", "Oh, and before I forget, my good-for-nothing \nBellboy's gone missing again. If you see him, give him another good trouncing for me.", 3);
+		scr_new_text_box("KAREN", "Oh, and before I forget, my good-for-nothing \nBellboy's gone missing again. If you see him, give \nhim another good trouncing for me.", 3);
+		break;
+	case 18:
+		global.betty_dialogue = true;
+		scr_new_text_box("BETTY", "Good to hear, I hope you'll be helpful finding \nmy Horace.");
+		scr_new_text_box("CONSTABLE", "You don't need em, after all I'm here.");
+		scr_new_text_box("CONSTABLE", "I'm ____, the local constable here in Coolsville.\nDon't you worry about this case, I'm on the job.");
+		scr_new_text_box("BETTY", "Yes, well anyways I'm sure you have questions about \nmy husband's disappearance?", 0, ["19:I do, yes.", "20:I'd rather not have to take in any more exposition."]);
+		break;
+	case 19:
+		scr_new_text_box("BETTY", "Sadly, I didn't see or hear a thing on the night Horace\n disappeared. We sleep in separate rooms you see,\nso it wasn't until the morning that I saw he was gone.");
+		scr_new_text_box("BETTY", "Oh if only I had checked on him before I went to sleep,\n things may have been different!");
+		scr_new_text_box("BETTY", "I left his room how it was the morning of the disappearance,\nplease take a look for any clues he may have left behind.");
+		scr_new_text_box("BETTY", "It's through the door on the right.");
+		scr_new_text_box("CONSTABLE", "Look as hard as you want detective,\n but trust me there's nothing in that room worth finding,\nor I would have already got to it.");
+		scr_betty_dialogue();
+		break;
+	case 20:
+		scr_new_text_box("BETTY", "I guess you're in luck then..");
+		scr_new_text_box("BETTY", "Sadly, I didn't see or hear a thing on the night Horace\n disappeared. We sleep in separate rooms you see,\nso it wasn't until the morning that I saw he was gone.");
+		scr_new_text_box("BETTY", "Oh if only I had checked on him before I went to sleep,\n things may have been different!");
+		scr_new_text_box("BETTY", "I left his room how it was the morning of the disappearance,\nplease take a look for any clues he may have left behind.");
+		scr_new_text_box("BETTY", "It's through the door on the right.");
+		scr_new_text_box("CONSTABLE", "Look as hard as you want detective,\n but trust me there's nothing in that room worth finding,\nor I would have already got to it.");
+		scr_betty_dialogue();
 		break;
 	default: break;
 }

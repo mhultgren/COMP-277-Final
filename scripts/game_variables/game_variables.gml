@@ -7,6 +7,7 @@ global.bellboy_cutscene = false;
 
 global.bellboy_fought = false;
 global.just_fought = false;
+global.betty_dialogue = false;
 
 // MISC. VARIABLES
 global.day_number = 1;

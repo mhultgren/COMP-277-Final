@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "70b378a0-4d3f-4c73-8709-bae6fb28482e",
+            "Value": {
+                "id": "60300be5-db66-48a5-abb0-7a7976cb6c5c",
+                "resourcePath": "objects\\obj_betty\\obj_betty.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7198d7b6-6eaa-4b54-9e91-16847d43a7a1",
             "Value": {
                 "id": "c35b9385-4d23-4e49-a3f8-c185a57fda39",
@@ -804,6 +812,14 @@
                 "id": "759a9029-f04d-4cd5-8fb9-92a5f7d84476",
                 "resourcePath": "sprites\/spr_item_select\/spr_item_select.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "86ceaf9a-1b4c-44b9-8e62-5916d98764d5",
+            "Value": {
+                "id": "ad84ae58-b3cb-4673-a57a-8f74bb5e8724",
+                "resourcePath": "objects\\obj_constable\\obj_constable.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1295,6 +1311,14 @@
             }
         },
         {
+            "Key": "d13f8f0a-2341-46dd-87c7-b38d318e8fb3",
+            "Value": {
+                "id": "b454e013-4b5d-4f42-8d95-0a30ee5d3b7f",
+                "resourcePath": "rooms\\rm_horace_room\\rm_horace_room.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d16ba758-de9c-4f8c-80f3-c314815ebf66",
             "Value": {
                 "id": "91a2f7e7-3d5c-40ab-9071-40b796d79c79",
@@ -1330,7 +1354,7 @@
             "Key": "d6b16313-c457-4d95-9045-f5293df78121",
             "Value": {
                 "id": "fbf8bfa9-8293-4d9c-88d5-8cfd6d85c773",
-                "resourcePath": "rooms\\rm_horaceHouse\\rm_horaceHouse.yy",
+                "resourcePath": "rooms\\rm_horace_house\\rm_horace_house.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1340,6 +1364,14 @@
                 "id": "6ca37df2-589f-4c5e-a9e6-b870f5511927",
                 "resourcePath": "objects\/obj_player_health_bar\/obj_player_health_bar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d8c6d54c-7375-420c-862c-348d5fe8c93b",
+            "Value": {
+                "id": "2974eca5-ba24-4b27-a361-4db27239e5a8",
+                "resourcePath": "scripts\\scr_betty_dialogue\\scr_betty_dialogue.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1555,7 +1587,8 @@
         "0851bdc5-36e0-4abd-9430-18ede2e405e8",
         "0b39de6d-c966-4092-9bd0-73620c7f51b3",
         "b77e2d6e-e75e-4e36-a5c0-eee1ea226ee7",
-        "a9e08bfc-98ae-42d2-94a1-bcf8aa05298e"
+        "a9e08bfc-98ae-42d2-94a1-bcf8aa05298e",
+        "d8c6d54c-7375-420c-862c-348d5fe8c93b"
     ],
     "tutorial": ""
 }

@@ -8,7 +8,7 @@ if (cutscene_start) {
 	
 	with instance_create_layer(110, 80, "Entities", obj_ezekiel) {
 		entity_activate_script = scr_new_text_box;
-		entity_activate_args = ["EZEKIEL", "bla", 2];
+		entity_activate_args = ["EZEKIEL", "Thanks again for signing on to help. No one else\nis on my side here.", 2];
 		entity_npc = true;
 	}
 
