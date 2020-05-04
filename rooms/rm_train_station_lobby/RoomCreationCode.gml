@@ -1,4 +1,5 @@
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H);
+//surface_resize(application_surface, room_width, room_height);
 
 if (!instance_exists(obj_player)) {
 	if (global.target_x == noone || global.target_y == noone) {

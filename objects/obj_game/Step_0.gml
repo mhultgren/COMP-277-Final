@@ -1,5 +1,10 @@
 if (just_unpaused) {
 	with (all) image_speed = gamePausedSpeed;
+	show_debug_message("resize");
+	show_debug_message(room);
+	if (room!=rm_0 && room!=rm_forest){
+	surface_resize(application_surface, room_width, room_height);}
+	show_debug_message("resize");
 	just_unpaused = false;
 }
 
@@ -26,6 +31,7 @@ if (keyboard_check_pressed(vk_escape)) {
 		}
 	}
 }
+
 
 if (battleEnded) {
 	room_persistent = false;
