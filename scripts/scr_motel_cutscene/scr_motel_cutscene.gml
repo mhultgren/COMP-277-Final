@@ -24,7 +24,7 @@ with instance_nearest(x, y, obj_player) {
 	
 		if (global.begin_dialogue) {
 			scr_new_text_box("KAREN", "Come for a room?", 3, ["0:That's right."]);
-			scr_new_text_box("KAREN", "Perfect, you must be Mr. Grey?", 3);
+			scr_new_text_box("KAREN", "Perfect, you must be Mr. " + global.last_name + "?", 3);
 			scr_new_text_box("KAREN", "Lucky for you, your room's complimentary.\nLet me get your room key now.", 3);
 			scr_new_text_box("KAREN", "BELLBOY!!!!", 3);
 			scr_new_text_box("KAREN", "...", 3);

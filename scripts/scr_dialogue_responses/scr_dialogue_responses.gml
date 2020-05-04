@@ -36,12 +36,14 @@ switch(argument0) {
 		break;
 	case 16:
 		scr_new_text_box("KAREN", "Good to hear. They should be expecting you at Horace's \nhouse to do some investigating.", 3);
+		scr_new_text_box("KAREN", "It's just east of here, the small house with the \nnice garden.", 3);
 		scr_new_text_box("KAREN", "Well, what are you waiting for? Hop to it!", 3);
 		scr_new_text_box("KAREN", "Oh, and before I forget, my good-for-nothing \nBellboy's gone missing again. If you see him, give \nhim another good trouncing for me.", 3);
 		break;
 	case 17:
 		scr_new_text_box("KAREN", "Too bad, you're here now, and the next train isn't til \nSunday, so you might as well get to work.", 3);
 		scr_new_text_box("KAREN", "They should be expecting you at Horace's \nhouse to do some investigating.", 3);
+		scr_new_text_box("KAREN", "It's just east of here, the small house with the \nnice garden.", 3);
 		scr_new_text_box("KAREN", "Now stop your grumbling and get to work!", 3);
 		scr_new_text_box("KAREN", "Oh, and before I forget, my good-for-nothing \nBellboy's gone missing again. If you see him, give \nhim another good trouncing for me.", 3);
 		break;
@@ -68,6 +70,36 @@ switch(argument0) {
 		scr_new_text_box("BETTY", "It's through the door on the right.");
 		scr_new_text_box("CONSTABLE", "Look as hard as you want detective,\n but trust me there's nothing in that room worth finding,\nor I would have already got to it.");
 		scr_betty_dialogue();
+		break;
+	case 21:
+		scr_new_text_box("BETTY", "Really now?! Let's hear it, what did you find?");
+		scr_new_text_box(string_upper(global.first_name), "It might be nothing... but--", 5);
+		scr_new_text_box("CONSTABLE", "You're goddamn right it's nothing!\nTold you the room was empty!");
+		scr_new_text_box(string_upper(global.first_name), "Anyways..", 5);
+		scr_new_text_box(string_upper(global.first_name), "I noticed some crumpled flowers on his floor, would Horace\n have left these on the floor?", 5);
+		scr_new_text_box("BETTY", "Oh heavens no! Horace loved his gardening, but if that \nman was anything, it was clean.");
+		scr_new_text_box("BETTY", "He never would have left such a mess..");
+		scr_new_text_box(string_upper(global.first_name), "Interesting..", 5);
+		scr_new_text_box(string_upper(global.first_name), "Would you mind if I have a look in the garden Betty?\nThere could be other clues there.", 5);
+		scr_new_text_box("BETTY", "By all means, detective! Anything to bring him home.");
+		scr_new_text_box("CONSTABLE", "I personally wouldn't classify a few flowers as a clue, \nbut to each their own...");
+		
+		with instance_nearest(x, y, obj_betty) instance_destroy();
+		with instance_nearest(x, y, obj_constable) instance_destroy();
+		
+		with instance_create_layer(135, 45, "Entities", obj_constable) {
+			image_index = 3;
+			entity_activate_script = scr_new_text_box;
+			entity_activate_args = ["CONSTABLE", "Beginner's luck."];
+			entity_npc = true;
+		}
+		
+		with instance_create_layer(95, 65, "Entities", obj_betty) {
+			image_index=3;
+			entity_activate_script = scr_new_text_box;
+			entity_activate_args = ["BETTY", "The garden's right outside, on the left and \nrightmost sides of the house."];
+			entity_npc = true;
+		}
 		break;
 	default: break;
 }

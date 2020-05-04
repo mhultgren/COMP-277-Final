@@ -7,7 +7,7 @@ if (!instance_exists(obj_player)) {
 }
 
 if (global.day_number == 2) {
-	if (!global.betty_dialogue) {
+	if (!global.betty_dialogue || !global.horace_room_investigated) {
 		scr_betty_dialogue();
 	}
 }

@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0c2a360a-c8d8-4eef-aec9-9311d521cd41",
+            "Value": {
+                "id": "686eb11d-e9a7-4b3c-a67c-92d070af5b57",
+                "resourcePath": "scripts\\scr_find_flowers\\scr_find_flowers.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0c353ad7-18f7-42e5-bdd1-7ef49754d4e4",
             "Value": {
                 "id": "eacd9cd3-ec9e-43c7-bada-fdffeac3b9f3",
@@ -431,6 +439,14 @@
             }
         },
         {
+            "Key": "3e89294b-808c-4200-8eca-2e3fae84ca23",
+            "Value": {
+                "id": "cf1b9367-a82b-4882-bccd-6a858b76984e",
+                "resourcePath": "sprites\\spr_flowers\\spr_flowers.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3f46ed4a-65be-4dad-ac9b-447771c0bfdb",
             "Value": {
                 "id": "61af32b0-53a2-4726-aaad-b21316608a3d",
@@ -580,6 +596,14 @@
                 "id": "76e8493e-e24f-4b6d-a770-c73b3a626662",
                 "resourcePath": "sprites\/spr_ezekiela\/spr_ezekiela.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5b3dd3a6-d06c-4c9f-8d56-abde812fa72e",
+            "Value": {
+                "id": "9794ccaa-ed58-490f-9d67-4739effadc83",
+                "resourcePath": "rooms\\rm_start\\rm_start.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -748,6 +772,14 @@
                 "id": "8018ffda-7c71-4a71-9618-213c96b6399d",
                 "resourcePath": "options\/html5\/options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "76c97cbe-9ef6-4a60-b69f-2f70d41dc6cf",
+            "Value": {
+                "id": "dc0217a1-0109-475f-b2d6-784e69125304",
+                "resourcePath": "objects\\obj_get_name\\obj_get_name.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1311,6 +1343,14 @@
             }
         },
         {
+            "Key": "cead29a1-970a-4bbc-a2ec-8e4e9ae74dda",
+            "Value": {
+                "id": "e6d25346-f5d3-4a4d-9e0e-aa29936b41cf",
+                "resourcePath": "objects\\obj_flowers\\obj_flowers.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d13f8f0a-2341-46dd-87c7-b38d318e8fb3",
             "Value": {
                 "id": "b454e013-4b5d-4f42-8d95-0a30ee5d3b7f",
@@ -1588,7 +1628,8 @@
         "0b39de6d-c966-4092-9bd0-73620c7f51b3",
         "b77e2d6e-e75e-4e36-a5c0-eee1ea226ee7",
         "a9e08bfc-98ae-42d2-94a1-bcf8aa05298e",
-        "d8c6d54c-7375-420c-862c-348d5fe8c93b"
+        "d8c6d54c-7375-420c-862c-348d5fe8c93b",
+        "0c2a360a-c8d8-4eef-aec9-9311d521cd41"
     ],
     "tutorial": ""
 }

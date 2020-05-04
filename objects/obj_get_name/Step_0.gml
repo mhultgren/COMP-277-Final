@@ -1,0 +1,1 @@
+if (global.first_name != "" && global.last_name != "") room_goto(rm_splash);

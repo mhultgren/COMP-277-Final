@@ -5,3 +5,9 @@ if (!instance_exists(obj_player)) {
 		instance_create_layer(global.target_x, global.target_y, "Player", obj_player);
 	}
 }
+
+if (!global.horace_room_investigated) {
+	with instance_create_layer(85, 88, "Clues", obj_flowers) {
+		script = scr_find_flowers;
+	}
+}
