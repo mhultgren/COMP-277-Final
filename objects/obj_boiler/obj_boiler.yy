@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_boiler",
     "eventList": [
-        
+        {
+            "id": "acdddb29-0121-4bac-b49c-8b689de404a0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "e315c116-8f4d-4152-b8ea-5444a321d561"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
