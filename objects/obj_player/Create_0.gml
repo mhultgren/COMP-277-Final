@@ -1,4 +1,6 @@
 player_speed = 2;
+vspd = 0;
+hspd = 0;
 // set the maximum player health
 // current health
 // and the amount of damage they do
