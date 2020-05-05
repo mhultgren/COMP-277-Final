@@ -34,7 +34,7 @@ if (appearing) {
 if (hit) {
 	// lower enemy health by player attack power
 	// same with player health
-	current_enemy_health -= global.player_attack_power / (1.5*room_speed);
+	current_enemy_health -= (global.player_attack_power * zone) / (1.5*room_speed);
 	
 	hit_counter++;
 	if (hit_counter % 15 == 0) {

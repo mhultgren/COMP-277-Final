@@ -8,11 +8,17 @@ if (damaged) image_blend = c_red;
 else image_blend = c_white;
 
 if (hit) {
-	draw_set_color(c_red);
+	
+	if (zone == 0.50) draw_set_color(zone_color_weakest);
+	else if (zone == 0.75) draw_set_color(zone_color_weak);
+	else if (zone == 1) draw_set_color(zone_color_normal);
+	else if (zone == 1.5) draw_set_color(zone_color_strong);
+	else draw_set_color(zone_color_strongest);
+	
 	draw_set_alpha(1 - (hit_counter / room_speed));
 	
 	draw_text_transformed(x + 64 + (hit_counter/2), y - 64 - (hit_counter/2), 
-		"-" + string(global.player_attack_power), 2, 2, 0);
+		"-" + string(zone * global.player_attack_power), 2, 2, 0);
 	
 	draw_set_alpha(1);
 	draw_set_color(c_white);

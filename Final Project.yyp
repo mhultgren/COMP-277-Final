@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "1faec24f-1ffb-4967-97c3-5fde03d6281b",
+            "Value": {
+                "id": "fa3a3d6e-de7c-4b58-925a-19847482c406",
+                "resourcePath": "objects\\obj_hit_bar\\obj_hit_bar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2082bb07-cd58-420c-a1e8-04abc5243458",
             "Value": {
                 "id": "8f58d412-24e0-42dd-a1fd-3ab4812c8f60",
@@ -307,6 +315,14 @@
             "Value": {
                 "id": "b6ef6216-d35e-48ce-aa16-2a901b715f92",
                 "resourcePath": "sprites\/spr_battle_person\/spr_battle_person.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "26337737-c3a5-48db-835a-194c79559877",
+            "Value": {
+                "id": "e9444b91-b168-44f2-99f2-de127955ec28",
+                "resourcePath": "sprites\\spr_hit_bar\\spr_hit_bar.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -844,6 +860,14 @@
                 "id": "2dd2a684-e463-487c-843b-3f0950adabf2",
                 "resourcePath": "views\/661635c8-62e6-4b2c-b3ea-bbbe7e756f4e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "663cd3f7-8923-4e1d-a209-a1bbddbb9f75",
+            "Value": {
+                "id": "6e6b9bd7-c013-4dca-9efb-a18b5bb87c3d",
+                "resourcePath": "objects\\obj_hit_selector\\obj_hit_selector.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1452,6 +1476,14 @@
                 "id": "57dfb4f8-5e3f-41cb-9a41-1f7f9a8ba961",
                 "resourcePath": "rooms\/rm_exposition\/rm_exposition.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "be63462d-dd83-478e-a210-99e7a5c289d5",
+            "Value": {
+                "id": "32436119-b9fe-4a23-9f88-a9dfaf14e616",
+                "resourcePath": "sprites\\spr_hit_selector\\spr_hit_selector.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

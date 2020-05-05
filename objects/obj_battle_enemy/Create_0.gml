@@ -3,6 +3,13 @@ enemy_health = 100;
 attack_power = 10;
 max_width = 64;
 
+zone = 1;
+zone_color_weakest = make_color_rgb(238, 142, 177);
+zone_color_weak = make_color_rgb(238, 119, 142);
+zone_color_normal = make_color_rgb(238, 71, 77);
+zone_color_strong = make_color_rgb(238, 28, 36);
+zone_color_strongest = make_color_rgb(158, 11, 15);
+
 enemy_hit_chance = 5;
 
 damaged = false;
