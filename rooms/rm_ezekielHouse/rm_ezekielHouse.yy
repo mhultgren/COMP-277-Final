@@ -46,7 +46,8 @@
         "61cad2f0-5f5e-4570-901c-aa00b97f0782",
         "394f81f5-c601-4d0d-8477-1b53bc08d92c",
         "e1376d9b-9f2f-43eb-b10f-817fc8f6fed7",
-        "1cc468a6-e401-486c-be80-2d1f85b0c11c"
+        "1cc468a6-e401-486c-be80-2d1f85b0c11c",
+        "bc4afa0b-4a0f-41a6-a764-577cf33fdd21"
     ],
     "IsDnD": false,
     "layers": [
@@ -203,7 +204,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_6D515E8A","id": "bc4afa0b-4a0f-41a6-a764-577cf33fdd21","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_6D515E8A.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 3,"imageSpeed": 0,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6D515E8A","objId": "58d76252-3ac4-4c5f-9073-6d97aaf7f5a2","properties": [{"id": "e35b7124-3420-4712-a2ba-06bd392b9486","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "8b85ed26-b24f-45c6-8a8c-915fc0b14251","mvc": "1.0","value": "scr_new_text_box"},{"id": "26bcba01-14d8-47b0-a3a4-843581a8e8b7","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "08bf39e1-ac9f-4730-8a49-7755e4f2b129","mvc": "1.0","value": "[\"EZEKIEL\", \"Sorry, I'm kinda busy.\", 2,  [\"0:Ok\", \"27:With what?\"]]"},{"id": "d4662f2f-2c50-4095-a316-e9e33bbec394","modelName": "GMOverriddenProperty","objectId": "9bef7e12-4e06-4020-82db-78b2a4d95abf","propertyId": "28a173a1-d324-483b-9ffe-0e54e8ad11b4","mvc": "1.0","value": "True"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 160,"y": 64}
             ],
             "layers": [
 

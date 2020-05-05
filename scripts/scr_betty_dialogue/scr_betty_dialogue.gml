@@ -2,6 +2,11 @@ if (!global.betty_dialogue) {
 	if (global.horace_room_investigated) {
 		global.betty_dialogue = true;
 		
+		with instance_nearest(141, 222, obj_door) {
+			locked = true;
+			lockedText = "I should talk to Betty before leaving.";
+		}
+		
 		with instance_nearest(x, y, obj_betty) instance_destroy();
 		
 		with instance_create_layer(135, 45, "Entities", obj_constable) {

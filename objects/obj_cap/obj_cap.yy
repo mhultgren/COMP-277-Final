@@ -1,8 +1,8 @@
 {
-    "id": "cead29a1-970a-4bbc-a2ec-8e4e9ae74dda",
+    "id": "c400aee7-8d58-41df-8153-e5d8b3d1eac0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_flowers",
+    "name": "obj_cap",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "3e89294b-808c-4200-8eca-2e3fae84ca23",
+    "spriteId": "35ba9aaa-32d8-447a-bc57-b4d54b92ac6a",
     "visible": true
 }

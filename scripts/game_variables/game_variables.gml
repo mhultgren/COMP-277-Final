@@ -12,6 +12,12 @@ global.just_fought = false;
 // DAY 2
 global.betty_dialogue = false;
 global.horace_room_investigated = false;
+global.bellboy_disappearance_cutscene = false;
+global.bellboy_room_investigated = false;
+global.bed_clue_found = false;
+global.cap_clue_found = false;
+global.karen_debrief = false;
+global.ezekiel_debrief = false;
 
 // MISC. VARIABLES
 global.day_number = 1;

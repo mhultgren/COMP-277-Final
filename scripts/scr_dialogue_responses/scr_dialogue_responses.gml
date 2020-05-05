@@ -23,7 +23,7 @@ switch(argument0) {
 			global.pastY = y;
 		}
 		global.battle_room = room; global.bellboy_fought = true; break;
-	case 11: scr_new_text_box("BELLBOY", "yu mus think im stupid huh? i won jus \ngive yu your room key without my boss' consent", 4, ["12:Then come to the motel and you can talk to her.", "10:I'm done with this (Fight)"]); break;
+	case 11: scr_new_text_box("BELLBOY", "yu mus think im stupid huh? i won jus \ngive yu your room key without my boss' permission", 4, ["12:Then come to the motel and you can talk to her.", "10:I'm done with this (Fight)"]); break;
 	case 12: scr_new_text_box("BELLBOY", "i thinq ill stay here", 4, ["0:Fine.. (back off)", "10:Guess I'll just have to change your mind, then (Fight)"]); break;
 	case 13: scr_new_text_box("BARTENDER", "Sounds like you've got a shit job.");
 	case 14: 
@@ -80,8 +80,7 @@ switch(argument0) {
 		scr_new_text_box("BETTY", "Oh heavens no! Horace loved his gardening, but if that \nman was anything, it was clean.");
 		scr_new_text_box("BETTY", "He never would have left such a mess..");
 		scr_new_text_box(string_upper(global.first_name), "Interesting..", 5);
-		scr_new_text_box(string_upper(global.first_name), "Would you mind if I have a look in the garden Betty?\nThere could be other clues there.", 5);
-		scr_new_text_box("BETTY", "By all means, detective! Anything to bring him home.");
+		scr_new_text_box(string_upper(global.first_name), "I'll ask around, see if I can find anymore clues.", 5);
 		scr_new_text_box("CONSTABLE", "I personally wouldn't classify a few flowers as a clue, \nbut to each their own...");
 		
 		with instance_nearest(x, y, obj_betty) instance_destroy();
@@ -97,9 +96,136 @@ switch(argument0) {
 		with instance_create_layer(95, 65, "Entities", obj_betty) {
 			image_index=3;
 			entity_activate_script = scr_new_text_box;
-			entity_activate_args = ["BETTY", "The garden's right outside, on the left and \nrightmost sides of the house."];
+			entity_activate_args = ["BETTY", "Good luck in your search!"];
 			entity_npc = true;
 		}
+		
+		with instance_nearest(141, 222, obj_door) {
+			locked = false;
+		}
+		
+		break;
+	case 22:
+		scr_new_text_box("KAREN", "Yes, I fear he's up and vanished.", 3);
+		scr_new_text_box("EZEKIEL", "Another one gone! Only a matter of time til' we're all kaput!", 2);
+		scr_new_text_box("KAREN", "This is no time for panic Ezekiel, let's\nlet Mr. " + string(global.last_name) + " do what he does best.", 3);
+		scr_new_text_box("KAREN", "The bellboy's room is through the door \non the left.", 3);
+		
+		with instance_nearest(145, 16, obj_door) {
+			locked = false;
+		}
+		
+		with instance_nearest(x, y, obj_motel_owner) {
+			instance_destroy();
+		}
+
+		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+			entity_activate_script = scr_new_text_box;
+			entity_activate_args = ["KAREN", "The bellboy's room is through the door \non the left.", 3];
+			entity_npc = true;
+		}
+		
+		break;
+	case 23:
+		scr_new_text_box("KAREN", "Really now? Let's hear it. What did you find?", 3);
+		scr_new_text_box(string_upper(global.first_name), "Two things stood out to me.", 5);
+		scr_new_text_box(string_upper(global.first_name), "Firstly, there were slash marks in the bellboy's bed.\nI also found the bellboy's cap behind the boiler in his room.", 5);
+		scr_new_text_box("KAREN", "The bellboy is known to be a rough sleeper..", 3);
+		scr_new_text_box("KAREN", "Are you sure he didn't just lose his cap?\nYou may have noticed he isn't the most lucid.", 3);
+		scr_new_text_box(string_upper(global.first_name), "I might agree with you, but there's dried\nblood all over the cap.", 5);
+		scr_new_text_box(string_upper(global.first_name), "With the bloody cap and the torn sheets,\nthis whole thing is starting to seem like more\nthan just a few disappearances.", 5);
+		scr_new_text_box("KAREN", "Really now? What do you think it could be?", 3, ["24:Murder", "25:Alien abductions", "25:A string of spontaneous combustions."]);
+		break;
+	case 24:
+		scr_new_text_box("KAREN", "You might be right, detective..\nLet's hope you're not.", 3);
+		scr_new_text_box("KAREN", "Oh, before I forget, Ezekiel went to his home.\nHe'd like you to meet him there.", 3);
+		scr_new_text_box("KAREN", "Keep up the good work, detective.", 3, ["0:Always.", "0:I'll try."]);
+		global.karen_debrief = true;
+		with instance_nearest(143, 222, obj_door) locked = false;
+		break;
+	case 25:
+		scr_new_text_box("KAREN", "Uh-huh..", 3);
+		scr_new_text_box("KAREN", "How about we wait for more clues\nbefore jumping to conclusions?", 3);
+		scr_new_text_box("KAREN", "Oh, before I forget, Ezekiel went to his home.\nHe'd like you to meet him there.", 3);
+		scr_new_text_box("KAREN", "Keep up the good work, detective.", 3, ["0:Always.", "0:I'll try."]);
+		global.karen_debrief = true;
+		with instance_nearest(143, 222, obj_door) locked = false;
+		break;
+	case 26:
+		scr_new_text_box("EZEKIEL", "THIS TEXT WILL BE UPDATED", 2);
+		global.ezekiel_debrief = true;
+		break;
+	case 27:
+		scr_new_text_box("EZEKIEL", "...", 2);
+		scr_new_text_box("EZEKIEL", "Good question.", 2);
+		break;
+	case 28:
+		scr_new_text_box("KAREN", "Well aren't you tough?", 3);
+		scr_new_text_box("KAREN", "You come up with anymore leads talking to Ezekiel?", 3);
+		scr_new_text_box(string_upper(global.first_name), "Nothing specific, but I was attacked on my way here.", 5);
+		scr_new_text_box("KAREN", "You don't say?! By who?!", 3);
+		scr_new_text_box(string_upper(global.first_name), "They got away before I could question them.", 5);
+		scr_new_text_box("KAREN", "I can't say that sits right with me..\nYou stay safe out there, OK?", 3, ["0:OK", "0:I'll do my best."]);
+		scr_new_text_box("KAREN", "Anyways, your room's all fresh and clean\nso go and make yourself comfortable.", 3);
+		scr_new_text_box("KAREN", "Oh, and don't worry about tonight's pay on\naccount of your help.", 3);
+		
+		with instance_nearest(272, 16, obj_door) {
+			locked = false;
+		}
+		with instance_nearest(143, 222, obj_door) {
+			locked = true;
+			lockedText = "It's time for bed.";
+		}
+		
+		with instance_nearest(0, 0, obj_door) {
+			locked = true;
+			lockedText = "It's time for bed.";
+		}
+		
+		with instance_nearest(x, y, obj_motel_owner) {
+			instance_destroy();
+		}
+
+		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+			entity_activate_script = scr_new_text_box;
+			entity_activate_args = ["KAREN", "Your room's all fresh and clean\nso go and make yourself comfortable."];
+			entity_npc = true;
+		}
+		
+		break;
+	case 29:
+		scr_new_text_box("KAREN", "I swear the days just keep getting longer.", 3);
+		scr_new_text_box("KAREN", "You come up with anymore leads talking to Ezekiel?", 3);
+		scr_new_text_box(string_upper(global.first_name), "Nothing specific, but I was attacked on my way here.", 5);
+		scr_new_text_box("KAREN", "You don't say?! By who?!", 3);
+		scr_new_text_box(string_upper(global.first_name), "They got away before I could question them.", 5);
+		scr_new_text_box("KAREN", "I can't say that sits right with me..\nYou stay safe out there, OK?", 3, ["0:OK", "0:I'll do my best."]);
+		scr_new_text_box("KAREN", "Anyways, your room's all fresh and clean\nso go and make yourself comfortable.", 3);
+		scr_new_text_box("KAREN", "Oh, and don't worry about tonight's pay on\naccount of your help.", 3);
+		
+		with instance_nearest(272, 16, obj_door) {
+			locked = false;
+		}
+		with instance_nearest(143, 222, obj_door) {
+			locked = true;
+			lockedText = "It's time for bed.";
+		}
+		
+		with instance_nearest(0, 0, obj_door) {
+			locked = true;
+			lockedText = "It's time for bed.";
+		}
+		
+		with instance_nearest(x, y, obj_motel_owner) {
+			instance_destroy();
+		}
+
+		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+			entity_activate_script = scr_new_text_box;
+			entity_activate_args = ["KAREN", "Your room's all fresh and clean\nso go and make yourself comfortable."];
+			entity_npc = true;
+		}
+		
 		break;
 	default: break;
 }

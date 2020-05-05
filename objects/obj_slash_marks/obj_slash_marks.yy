@@ -1,8 +1,8 @@
 {
-    "id": "cead29a1-970a-4bbc-a2ec-8e4e9ae74dda",
+    "id": "481c8f6a-06a5-456f-9a7d-6669539ca3b9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_flowers",
+    "name": "obj_slash_marks",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "3e89294b-808c-4200-8eca-2e3fae84ca23",
+    "spriteId": "61bcfde0-a019-49cc-8cc3-9dd20ef8817f",
     "visible": true
 }

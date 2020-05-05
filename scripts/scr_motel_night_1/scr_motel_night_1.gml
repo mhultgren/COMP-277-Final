@@ -6,8 +6,6 @@ with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
 		entity_npc = true;
 }
 
-with instance_create_layer(271, 22, "Transition", obj_door) {
-	target_room = rm_your_room;
-	target_x = 160;
-	target_y = 207;
+with instance_nearest(271, 22, obj_door) {
+	locked = false;
 }

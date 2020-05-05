@@ -1,14 +1,14 @@
 {
-    "id": "cead29a1-970a-4bbc-a2ec-8e4e9ae74dda",
+    "id": "366d6a9c-cf1b-46b9-ac00-b9afad3f8efb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_flowers",
+    "name": "obj_empty_slash_marks",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "2a118f53-7275-46b2-824c-c9785195118f",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "3e89294b-808c-4200-8eca-2e3fae84ca23",
+    "spriteId": "61bcfde0-a019-49cc-8cc3-9dd20ef8817f",
     "visible": true
 }
