@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "07ba8946-3f5a-475d-af80-7189c48ab749",
+            "Value": {
+                "id": "656217d6-b50d-43f1-81ce-93561025ce7a",
+                "resourcePath": "objects\\obj_puzzleKeyHole\\obj_puzzleKeyHole.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "07d97519-5996-4e25-9a5d-01f4eb2bfc98",
             "Value": {
                 "id": "9d6155d1-cadd-47e3-aeb1-ea4a346d805d",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "2790d7fe-ba69-4399-9bab-0c580feabb76",
+            "Value": {
+                "id": "8b66aa60-bc8b-412a-af99-b1545765f6e4",
+                "resourcePath": "objects\\obj_changeDirection\\obj_changeDirection.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "27c5a71f-5bdf-4447-af75-1b0ccd542a45",
             "Value": {
                 "id": "1b7e4ba7-8826-46c2-a005-9c2d1f1fba65",
@@ -399,10 +415,34 @@
             }
         },
         {
+            "Key": "32cc4476-2f59-4806-a6c0-4282dffda0e4",
+            "Value": {
+                "id": "33e47216-7ea6-4ee8-a309-7ab12c9bb91e",
+                "resourcePath": "rooms\\rm_puzzleDragDrop\\rm_puzzleDragDrop.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "32e3c5a5-168a-4c48-ba50-77222b97217b",
+            "Value": {
+                "id": "bb39bd8f-066c-4231-8e1b-a744eab136ed",
+                "resourcePath": "sprites\\spr_puzzleUpRight\\spr_puzzleUpRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "32e96d5b-96a9-4a63-8d25-87b82459616c",
             "Value": {
                 "id": "bdae36dc-7929-4e52-ac25-1360328276d4",
                 "resourcePath": "sprites\/spr_motel_ownera\/spr_motel_ownera.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "33f29ce3-7091-4516-b480-23bc1de48a95",
+            "Value": {
+                "id": "d88ba053-4851-4d7a-9ff0-ca5d7275631c",
+                "resourcePath": "sprites\\spr_puzzleTempDown\\spr_puzzleTempDown.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -460,6 +500,14 @@
                 "id": "0d22dfb6-b055-4676-9aaf-0be820083793",
                 "resourcePath": "rooms\/rm_end_teaser\/rm_end_teaser.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "38695304-0160-4537-8089-3c3d687085db",
+            "Value": {
+                "id": "46c7e0bf-c740-4b7b-ada0-c5b550ba89e6",
+                "resourcePath": "sprites\\spr_puzzleTempUp\\spr_puzzleTempUp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -532,6 +580,14 @@
                 "id": "bd18c6a2-2e63-40ea-a58b-e9eba7196885",
                 "resourcePath": "views\/3d407565-b680-41d2-a83f-a8d4c59e5532.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3d95977a-7aae-471d-8fb5-f85cdff77343",
+            "Value": {
+                "id": "93a3e22d-28d0-400d-b65f-db044d028333",
+                "resourcePath": "sprites\\spr_puzzleKeyHole\\spr_puzzleKeyHole.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1063,6 +1119,14 @@
             }
         },
         {
+            "Key": "862e030e-c4f9-407d-b908-09a3929ca6db",
+            "Value": {
+                "id": "a5920d7f-93d0-45ee-87d8-bd921f68f062",
+                "resourcePath": "objects\\obj_puzzleTemp\\obj_puzzleTemp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "86c570dc-57b4-486c-893a-2d21f28fb469",
             "Value": {
                 "id": "759a9029-f04d-4cd5-8fb9-92a5f7d84476",
@@ -1148,6 +1212,14 @@
                 "id": "a3cad341-f82b-47b2-baca-b96bc457430b",
                 "resourcePath": "tilesets\/ts_house\/ts_house.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "8efcbdf8-a90b-46ee-ba0c-710d086edf84",
+            "Value": {
+                "id": "a1ebbd45-e1b6-46d1-9970-99917fc4823a",
+                "resourcePath": "sprites\\spr_puzzleTempLeft\\spr_puzzleTempLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1359,6 +1431,14 @@
             }
         },
         {
+            "Key": "a7724c04-1113-495e-8a46-fed0d944bdb7",
+            "Value": {
+                "id": "7a19ed53-b88a-4e9a-872b-a71b6c95a533",
+                "resourcePath": "sprites\\spr_puzzleUpLeft\\spr_puzzleUpLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a8001425-9273-4f08-90f3-b7b5c7ab7b65",
             "Value": {
                 "id": "cd05555b-d90b-4b90-bf06-b0b296196fb3",
@@ -1407,6 +1487,14 @@
             }
         },
         {
+            "Key": "ab833a06-90a9-446a-abec-17bf2eaa2a5e",
+            "Value": {
+                "id": "d37f1cd8-9138-49bf-8efa-fc1ce2c8fc9e",
+                "resourcePath": "objects\\obj_drag\\obj_drag.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "abcade7d-1f9f-47d1-b360-c2ec10bdc0a5",
             "Value": {
                 "id": "bfda249e-4d99-4ccc-98ba-25686e1bddc8",
@@ -1436,6 +1524,14 @@
                 "id": "874ac3c3-c544-4e50-b2d6-370b849ebcfa",
                 "resourcePath": "scripts\\script23\\script23.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b265f629-57e8-401e-9924-04777f1e8e1e",
+            "Value": {
+                "id": "2486627a-d2bf-4027-b53c-9c4576811f83",
+                "resourcePath": "sprites\\spr_puzzleTempRight\\spr_puzzleTempRight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1815,6 +1911,14 @@
             }
         },
         {
+            "Key": "e939cc77-a2fd-4432-a207-b57dcc67e1c1",
+            "Value": {
+                "id": "649d020e-4499-44de-97c7-ae88708df4be",
+                "resourcePath": "sprites\\spr_changeDirection\\spr_changeDirection.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e9ae1ced-ba2f-4c80-acd3-77d4e0bf16c2",
             "Value": {
                 "id": "09300309-be46-4a6b-9225-9e9be00b4e54",
@@ -1884,6 +1988,14 @@
                 "id": "a7d38fae-46a3-4aa4-950b-651a4946a13e",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f907e867-4da5-4f8f-8b20-05a6e420b09e",
+            "Value": {
+                "id": "c793088a-ca3b-4761-9b72-f2329af9b473",
+                "resourcePath": "sprites\\spr_puzzleUpBack\\spr_puzzleUpBack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
