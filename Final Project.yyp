@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "45cf8af1-5d4b-4d56-982b-e52bd91df88d",
+            "Value": {
+                "id": "ac893b6c-a613-4b71-b155-ac870323d9b7",
+                "resourcePath": "sprites\\spr_puzzleKeyHoleCorrect\\spr_puzzleKeyHoleCorrect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45dfe538-6c7a-406f-90da-f0d6e8ee8786",
             "Value": {
                 "id": "7114b7a5-73b6-4e46-a794-c9838bf4cc69",
@@ -1623,6 +1631,14 @@
             }
         },
         {
+            "Key": "bf558253-4809-461f-95da-ab6c31266adb",
+            "Value": {
+                "id": "c5301859-7143-4cc3-8ada-268ce3106a16",
+                "resourcePath": "objects\\obj_goToPuzzle\\obj_goToPuzzle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bfe31594-cbbf-46ab-aecd-39f1df89fb58",
             "Value": {
                 "id": "f458421a-1009-4e34-82d2-243874396cd8",
@@ -1759,6 +1775,14 @@
             }
         },
         {
+            "Key": "cbc1eef5-6542-452c-9248-7a9bbf3c1ced",
+            "Value": {
+                "id": "8f4331b7-3389-46e7-b628-aae4c54cdc18",
+                "resourcePath": "sprites\\spr_keyHole\\spr_keyHole.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc85b589-5115-4abc-95c7-4b993ea04b0e",
             "Value": {
                 "id": "62880893-62bb-43fe-a34f-aa92b179f1f6",
@@ -1780,6 +1804,14 @@
                 "id": "adc50fbd-c194-4383-a476-41bad8710ae8",
                 "resourcePath": "sprites\/spr_tileset_country\/spr_tileset_country.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cd135d92-fcdb-4928-97bc-af92bc3d4cc4",
+            "Value": {
+                "id": "86749710-f020-48f1-93e8-529962ddd0c4",
+                "resourcePath": "objects\\obj_exitKeyHole\\obj_exitKeyHole.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1852,6 +1884,14 @@
                 "id": "fbf8bfa9-8293-4d9c-88d5-8cfd6d85c773",
                 "resourcePath": "rooms\/rm_horace_house\/rm_horace_house.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d6d6f93c-0654-46b9-be5c-372bd2e0e170",
+            "Value": {
+                "id": "d278ed95-0974-4ba8-aec7-6ce5e31a689b",
+                "resourcePath": "sprites\\spr_exitKeyHole\\spr_exitKeyHole.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2154,7 +2194,9 @@
         "144be0ab-31ff-44da-b931-6041d9c9d34e",
         "b1dfafaa-cbc1-419f-a796-bc4fbd8bc903",
         "abcade7d-1f9f-47d1-b360-c2ec10bdc0a5",
-        "e08b729e-c9fd-4bbe-9156-e8f7796c330a"
+        "e08b729e-c9fd-4bbe-9156-e8f7796c330a",
+        "868bc086-59b8-4fc4-aec1-20b11020e3ca",
+        "3f26d8c8-909d-45d2-bf9b-616c602cd22a"
     ],
     "tutorial": ""
 }
