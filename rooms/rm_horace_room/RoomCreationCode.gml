@@ -1,3 +1,5 @@
+surface_resize(application_surface, 640, 480);
+
 if (!instance_exists(obj_player)) {
 	if (global.target_x == noone || global.target_y == noone) {
 		instance_create_layer(380, 320, "Player", obj_player);
@@ -7,7 +9,7 @@ if (!instance_exists(obj_player)) {
 }
 
 if (!global.horace_room_investigated) {
-	with instance_create_layer(85, 88, "Clues", obj_flowers) {
+	with instance_create_layer(255, 63, "Clues", obj_flowers) {
 		script = scr_find_flowers;
 	}
 }

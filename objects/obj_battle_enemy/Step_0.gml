@@ -8,9 +8,10 @@ if (appearing) {
 	
 	if (image_xscale == image_maxscale || image_yscale == image_maxscale) appearing = false;
 } else {
-	current_enemy_health = clamp(current_enemy_health, 0, enemy_health);
+	global.current_enemy_health = clamp(global.current_enemy_health, 0, global.enemy_health);
 
-	if (current_enemy_health == 0) {
+	if (global.current_enemy_health == 0) {
+		global.current_player_health = global.player_health;
 		room_goto(global.battle_room);
 		with instance_nearest(x, y, obj_game) {
 			battleEnded = true;
@@ -34,7 +35,7 @@ if (appearing) {
 if (hit) {
 	// lower enemy health by player attack power
 	// same with player health
-	current_enemy_health -= (global.player_attack_power * zone) / (1.5*room_speed);
+	global.current_enemy_health -= (global.player_attack_power * zone) / (1.5*room_speed);
 	
 	hit_counter++;
 	if (hit_counter % 15 == 0) {
@@ -70,7 +71,7 @@ if (miss) {
 }
 
 if (attacking) {
-	global.current_player_health -= attack_power/(1.5 * room_speed);
+	global.current_player_health -= global.enemy_attack_power/(1.5 * room_speed);
 	attacking_counter++;
 	
 	if (attacking_counter >= room_speed * 1.5) {

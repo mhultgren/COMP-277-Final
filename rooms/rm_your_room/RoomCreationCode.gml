@@ -7,4 +7,5 @@ if (!instance_exists(obj_player)) {
 	}
 }
 
+global.night = false;
 global.day_number++;

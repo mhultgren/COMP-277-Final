@@ -2,7 +2,7 @@
 {
     "name": "rm_battle",
     "id": "5ce14978-5891-4c1c-95d7-35cfa0691aed",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

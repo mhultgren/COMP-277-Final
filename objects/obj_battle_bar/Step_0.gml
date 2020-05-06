@@ -5,7 +5,7 @@ with instance_nearest(x, y, obj_battle_enemy) {
 	other.attacking = attacking;
 }
 
-if (!appearing && !hit && !miss && !attacking && !instance_exists(obj_attack_bar)) {
+if (!appearing && !hit && !miss && !attacking && !instance_exists(obj_attack_bar) && !instance_exists(obj_hit_bar)) {
 	if (keyboard_check_pressed(ord("D"))) {
 		if (option_highlighted == 1) option_highlighted = 0;
 		else option_highlighted++;

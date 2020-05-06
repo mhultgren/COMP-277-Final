@@ -1,4 +1,4 @@
-if (keyboard_check_pressed(vk_enter)) {
+if (keyboard_check_pressed(vk_enter) || failed) {
 	with instance_nearest(x, y, obj_hit_selector) {
 		var bar_position = x - init_x+5;
 		// strongest attack

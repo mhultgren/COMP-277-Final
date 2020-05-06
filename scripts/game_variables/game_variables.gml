@@ -18,6 +18,9 @@ global.bed_clue_found = false;
 global.cap_clue_found = false;
 global.karen_debrief = false;
 global.ezekiel_debrief = false;
+global.stranger_cutscene = false;
+global.fought_stranger = false;
 
 // MISC. VARIABLES
 global.day_number = 1;
+global.night = false;

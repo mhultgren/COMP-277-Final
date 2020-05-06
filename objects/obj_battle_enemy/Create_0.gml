@@ -1,6 +1,3 @@
-current_enemy_health = 100;
-enemy_health = 100;
-attack_power = 10;
 max_width = 64;
 
 zone = 1;
@@ -20,7 +17,6 @@ miss = false;
 miss_counter = 0;
 
 attacking = false;
-attacking_strings = ["yu realy suckk, man", "*BELCH*", "yu messed wit the wrong guy, pal"];
 attacking_counter = 0;
 phrase_picked = false;
 

@@ -17,12 +17,20 @@ switch(argument0) {
 	case 8: scr_new_text_box("BELLBOY", "you bettr stop, or i'll make you!", 4, ["0:Fine.. (back off)", "10:Let's go then!(Fight)"]); break;
 	case 9: scr_new_text_box("BELLBOY", "well you're talkn to the wrong guyy thenn.\nwhatdyou want anywayy?", 4, ["11:I came from the motel. I need my room key."]); break;
 	case 10: 
-		room_goto(rm_battle); global.just_fought = true; global.battle_enemy = spr_bellboy_fight;
+		room_goto(rm_battle); 
+		global.just_fought = true; 
+		global.battle_enemy = spr_bellboy_fight;
+		global.current_enemy_health = 100;
+		global.enemy_health = 100;
+		global.enemy_attack_power = 10;
+		global.attacking_strings = ["yu realy suckk, man", "*BELCH*", "yu messed wit the wrong guy, pal"];
 		with instance_nearest(x, y, obj_player) {
 			global.pastX = x;
 			global.pastY = y;
 		}
-		global.battle_room = room; global.bellboy_fought = true; break;
+		global.battle_room = room; 
+		global.bellboy_fought = true; 
+		break;
 	case 11: scr_new_text_box("BELLBOY", "yu mus think im stupid huh? i won jus \ngive yu your room key without my boss' permission", 4, ["12:Then come to the motel and you can talk to her.", "10:I'm done with this (Fight)"]); break;
 	case 12: scr_new_text_box("BELLBOY", "i thinq ill stay here", 4, ["0:Fine.. (back off)", "10:Guess I'll just have to change your mind, then (Fight)"]); break;
 	case 13: scr_new_text_box("BARTENDER", "Sounds like you've got a shit job.");
@@ -152,8 +160,9 @@ switch(argument0) {
 		with instance_nearest(143, 222, obj_door) locked = false;
 		break;
 	case 26:
-		scr_new_text_box("EZEKIEL", "THIS TEXT WILL BE UPDATED", 2);
-		global.ezekiel_debrief = true;
+		scr_new_text_box("EZEKIEL", "I just wanted to talk with you without\nanyone else here to butt in.", 2);
+		scr_new_text_box("EZEKIEL", "I know\nthe others aren't taking it too seriously,\nbut I swear something weird is going on.", 2);
+		scr_new_text_box("EZEKIEL", "How do you feel about the case?", 2, ["30:I agree, something is extra off here.", "31:Let's wait until we have more info."]);
 		break;
 	case 27:
 		scr_new_text_box("EZEKIEL", "...", 2);
@@ -222,10 +231,32 @@ switch(argument0) {
 
 		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
 			entity_activate_script = scr_new_text_box;
-			entity_activate_args = ["KAREN", "Your room's all fresh and clean\nso go and make yourself comfortable."];
+			entity_activate_args = ["KAREN", "Your room's all fresh and clean\nso go and make yourself comfortable.", 3];
 			entity_npc = true;
 		}
-		
+		break;
+	case 30:
+		scr_new_text_box("EZEKIEL", "I'm so glad you agree with me! It's hard when\nwhen everyone treats you like a crazy person.", 2);
+		scr_new_text_box("EZEKIEL", "But four people disappearing, there has to\nbe a supernatural explanation!", 2);
+		scr_new_text_box("EZEKIEL", "Well, with you on my side, we've got to reach\nthe truth!", 2);
+		scr_new_text_box("EZEKIEL", "Thanks again for coming here, " + string(global.last_name) + ".", 2);
+		scr_new_text_box("EZEKIEL", "We sure do need you.", 2);
+		scr_new_text_box("EZEKIEL", "Anyways, it's getting late.", 2);
+		scr_new_text_box("EZEKIEL", "Why don't we call it a night, and\ndo some more investigating tomorrow?", 2, ["0:Sounds like a plan.", "0:Let's get this bread."]);
+		global.night = true;
+		global.ezekiel_debrief = true;
+		break;
+	case 31:
+		scr_new_text_box("EZEKIEL", "C'mon now! Four people have disappeared!!\nDon't try to explain this away!", 2);
+		scr_new_text_box("EZEKIEL", "THIS. ISN'T. NORMAL.", 2);
+		scr_new_text_box("EZEKIEL", "I know I might sound crazy, but you've got\nto trust me here. I've got a feeling!", 2);
+		scr_new_text_box("EZEKIEL", "Regardless of how you feel though,\nI appreciate the help, I really do.", 2);
+		scr_new_text_box("EZEKIEL", "Thanks again for coming here, " + string(global.last_name) + ".", 2);
+		scr_new_text_box("EZEKIEL", "We sure do need you.", 2);
+		scr_new_text_box("EZEKIEL", "Anyways, it's getting late.", 2);
+		scr_new_text_box("EZEKIEL", "Why don't we call it a night, and\ndo some more investigating tomorrow?", 2, ["0:Sounds like a plan.", "0:Let's get this bread."]);
+		global.night = true;
+		global.ezekiel_debrief = true;
 		break;
 	default: break;
 }

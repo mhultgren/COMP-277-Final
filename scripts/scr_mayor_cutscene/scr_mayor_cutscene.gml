@@ -70,5 +70,6 @@ with instance_nearest(x, y, obj_player) {
 
 if (!global.begin_dialogue && !global.textOnScreen) {
 	global.cutscene = false;
+	global.night = true;
 	instance_destroy();
 }
