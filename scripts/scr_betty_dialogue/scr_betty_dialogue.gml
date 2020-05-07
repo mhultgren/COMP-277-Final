@@ -9,7 +9,7 @@ if (!global.betty_dialogue) {
 		
 		with instance_nearest(x, y, obj_betty) instance_destroy();
 		
-		with instance_create_layer(268, 151, "Entities", obj_constable) {
+		with instance_create_layer(268, 157, "Entities", obj_constable) {
 			image_index = 3;
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["CONSTABLE", "How about you do your job and stop talking to me?"];
@@ -25,7 +25,7 @@ if (!global.betty_dialogue) {
 	} else {
 		with instance_nearest(x, y, obj_betty) instance_destroy();
 
-		with instance_create_layer(268, 151, "Entities", obj_constable) {
+		with instance_create_layer(268, 157, "Entities", obj_constable) {
 			image_index = 3;
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["CONSTABLE", "How about you do your job and stop talking to me?"];
