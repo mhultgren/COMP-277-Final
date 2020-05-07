@@ -5,3 +5,28 @@ if (!instance_exists(obj_player)) {
 		instance_create_layer(global.target_x, global.target_y, "Player", obj_player);
 	}
 }
+
+if (global.day_number == 3) {
+	if (!global.talked_to_constable) {
+		with instance_nearest(0, 0, obj_constable) {
+			entity_activate_args = ["CONSTABLE", "And what are you here for? You may not have\nheard, but I solved the case while you were asleep.", 0, ["34:I came to speak with Ryan"]];
+		}
+	}
+	
+	if (global.fought_constable && global.current_enemy_health <= 0) {
+		global.fought_constable = false;
+		
+		with instance_nearest(160, 231, obj_door) {
+			locked = true;
+			lockedText = "I'm not leaving until I talk to Ryan!";
+		}
+		
+		with instance_nearest(0, 0, obj_constable) {
+			entity_activate_args = ["CONSTABLE", "No way you're getting through that door.\nB-)"];
+		}
+		
+		with instance_create_layer(x, y, "Player", obj_cutscene) {
+			script = scr_constable_defeated;
+		}
+	}
+}

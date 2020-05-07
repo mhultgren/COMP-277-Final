@@ -5,7 +5,6 @@ global.intro_done = false;
 global.mayor_cutscene = false;
 global.motel_cutscene = false;
 global.bellboy_cutscene = false;
-
 global.bellboy_fought = false;
 global.just_fought = false;
 
@@ -20,6 +19,11 @@ global.karen_debrief = false;
 global.ezekiel_debrief = false;
 global.stranger_cutscene = false;
 global.fought_stranger = false;
+
+// DAY 3
+global.morning_karen_talk = false;
+global.talked_to_constable = false;
+global.fought_constable = false;
 
 // MISC. VARIABLES
 global.day_number = 1;

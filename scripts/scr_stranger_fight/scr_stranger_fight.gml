@@ -37,6 +37,7 @@ if (!global.textOnScreen && !global.begin_dialogue) {
 	global.current_enemy_health = 150;
 	global.enemy_health = 150;
 	global.enemy_attack_power = 15;
+	global.enemy_hit_chance = 6;
 		
 	global.attacking_strings = ["You shouldn't have come here.", "Die!"];
 }

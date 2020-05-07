@@ -19,7 +19,7 @@ if (!global.betty_dialogue) {
 		with instance_create_layer(201, 157, "Entities", obj_betty) {
 			image_index=3;
 			entity_activate_script = scr_new_text_box;
-			entity_activate_args = ["BETTY", "Find anything?", 0, ["21:Yes."]];
+			entity_activate_args = ["BETTY", "Find anything?", 7, ["21:Yes."]];
 			entity_npc = true;
 		}
 	} else {
@@ -35,7 +35,7 @@ if (!global.betty_dialogue) {
 		with instance_create_layer(201, 157, "Entities", obj_betty) {
 			image_index=3;
 			entity_activate_script = scr_new_text_box;
-			entity_activate_args = ["BETTY", "Well hello there sonny, you must be that detective\nI've been hearing about.", 0, ["18:That I am.", "18:You're goddamn right I am."]];
+			entity_activate_args = ["BETTY", "Well hello there sonny, you must be that detective\nI've been hearing about.", 7, ["18:That I am.", "18:You're goddamn right I am."]];
 			entity_npc = true;
 		}
 	}
@@ -54,7 +54,7 @@ if (!global.betty_dialogue) {
 	with instance_create_layer(201, 157, "Entities", obj_betty) {
 		image_index=3;
 		entity_activate_script = scr_new_text_box;
-		entity_activate_args = ["BETTY", "Take a look at Horace's room on the right.", 0, ["0:Alright then.", "0:Fine."]];
+		entity_activate_args = ["BETTY", "Take a look at Horace's room on the right.", 7, ["0:Alright then.", "0:Fine."]];
 		entity_npc = true;
 	}
 }

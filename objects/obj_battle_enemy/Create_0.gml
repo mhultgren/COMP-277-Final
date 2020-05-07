@@ -7,7 +7,7 @@ zone_color_normal = make_color_rgb(238, 71, 77);
 zone_color_strong = make_color_rgb(238, 28, 36);
 zone_color_strongest = make_color_rgb(158, 11, 15);
 
-enemy_hit_chance = 5;
+global.enemy_hit_chance = 5;
 
 damaged = false;
 

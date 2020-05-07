@@ -47,7 +47,7 @@ if (hit) {
 		hit_counter = 0;
 		
 		var enemy_hit = irandom(9) + 1;
-		if (enemy_hit <= enemy_hit_chance) {
+		if (enemy_hit <= global.enemy_hit_chance) {
 			phrase_picked = false;
 			attacking = true;
 		}
@@ -60,7 +60,7 @@ if (miss) {
 	
 	if (miss_counter >= room_speed) {
 		var enemy_hit = irandom(9) + 1;
-		if (enemy_hit <= enemy_hit_chance) {
+		if (enemy_hit <= global.enemy_hit_chance) {
 			phrase_picked = false;
 			attacking = true;
 		}

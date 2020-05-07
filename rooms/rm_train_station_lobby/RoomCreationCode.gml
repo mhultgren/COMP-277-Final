@@ -10,3 +10,5 @@ if (!instance_exists(obj_player)) {
 
 // creates cutscene variable if the intro has not yet been completed
 if (!global.intro_done) instance_create_layer(x, y, "Player", obj_cutscene);
+
+if (global.day_number == 3) with instance_nearest(0, 0, obj_station_attendant) instance_destroy();

@@ -1,7 +1,7 @@
 surface_resize(application_surface, 640, 480);
 if (!instance_exists(obj_player)) {
 	if (global.target_x == noone || global.target_y == noone) {
-		instance_create_layer(380, 320, "Player", obj_player);
+		instance_create_layer(144, 182, "Player", obj_player);
 	} else {
 		instance_create_layer(global.target_x, global.target_y, "Player", obj_player);
 	}
@@ -85,6 +85,27 @@ if (global.day_number == 2) {
 		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["KAREN", "Long day?", 3, ["28:It was nothing.", "29:You said it."]];
+			entity_npc = true;
+		}
+	}
+}
+#endregion
+
+#region day 3
+if (global.day_number == 3) {
+	if (!global.morning_karen_talk) {
+		with instance_nearest(143, 224, obj_door) {
+			locked = true;
+			lockedText = "I should speak with Karen before heading out.";
+		}
+		
+		with instance_nearest(x, y, obj_motel_owner) {
+			instance_destroy();
+		}
+
+		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+			entity_activate_script = scr_new_text_box;
+			entity_activate_args = ["KAREN", "Morning detective. Would you like the good or bad news first?", 3, ["32:The good.", "33:The bad."]];
 			entity_npc = true;
 		}
 	}

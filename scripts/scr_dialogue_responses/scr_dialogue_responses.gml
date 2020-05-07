@@ -7,17 +7,14 @@
 
 switch(argument0) {
 	case 0: break;
-	case 1: scr_new_text_box("PERSON", ":)", 0); break;
-	case 2: scr_new_text_box("PERSON", "Well fuck you too!", 1, ["3::)", "0::("]); break;
-	case 3: scr_new_text_box("PERSON", ">:(", 1); break;
-	case 4: room_persistent = true; room_goto(rm_battle); global.battle_enemy = spr_battle_person_fight; global.battle_room = room; break;
 	case 5: scr_new_text_box("EZEKIEL", "Good to hear!", 2); scr_finish_intro(); break;
 	case 6: scr_new_text_box("EZEKIEL", "Sorry about that. Can't say our trains are \nknown for their entertainment value.", 2); scr_finish_intro(); break;
 	case 7: scr_new_text_box("RYAN", "Tough luck. Maybe when we have an average \nof more than one passenger per week we'll \nchange things.", 1); break;
-	case 8: scr_new_text_box("BELLBOY", "you bettr stop, or i'll make you!", 4, ["0:Fine.. (back off)", "10:Let's go then!(Fight)"]); break;
+	case 8: scr_new_text_box("BELLBOY", "you bettr stop, or i'll make you!", 4, ["0:Fine.. (back off)", "10:Let's go then! (FIGHT)"]); break;
 	case 9: scr_new_text_box("BELLBOY", "well you're talkn to the wrong guyy thenn.\nwhatdyou want anywayy?", 4, ["11:I came from the motel. I need my room key."]); break;
 	case 10: 
 		room_goto(rm_battle); 
+		global.enemy_hit_chance = 5;
 		global.just_fought = true; 
 		global.battle_enemy = spr_bellboy_fight;
 		global.current_enemy_health = 100;
@@ -31,8 +28,8 @@ switch(argument0) {
 		global.battle_room = room; 
 		global.bellboy_fought = true; 
 		break;
-	case 11: scr_new_text_box("BELLBOY", "yu mus think im stupid huh? i won jus \ngive yu your room key without my boss' permission", 4, ["12:Then come to the motel and you can talk to her.", "10:I'm done with this (Fight)"]); break;
-	case 12: scr_new_text_box("BELLBOY", "i thinq ill stay here", 4, ["0:Fine.. (back off)", "10:Guess I'll just have to change your mind, then (Fight)"]); break;
+	case 11: scr_new_text_box("BELLBOY", "yu mus think im stupid huh? i won jus \ngive yu your room key without my boss' permission", 4, ["12:Then come to the motel and you can talk to her.", "10:I'm done with this (FIGHT)"]); break;
+	case 12: scr_new_text_box("BELLBOY", "i thinq ill stay here", 4, ["0:Fine.. (back off)", "10:Guess I'll just have to change your mind, then (FIGHT)"]); break;
 	case 13: scr_new_text_box("BARTENDER", "Sounds like you've got a shit job."); break;
 	case 14: 
 		scr_new_text_box("KAREN", "You weren't hurt were you? If so, \njust know I wont be held responsible.", 3);
@@ -57,36 +54,36 @@ switch(argument0) {
 		break;
 	case 18:
 		global.betty_dialogue = true;
-		scr_new_text_box("BETTY", "Good to hear, I hope you'll be helpful finding \nmy Horace.");
+		scr_new_text_box("BETTY", "Good to hear, I hope you'll be helpful finding \nmy Horace.", 7);
 		scr_new_text_box("CONSTABLE", "You don't need em, after all I'm here.");
 		scr_new_text_box("CONSTABLE", "I'm ____, the local constable here in Coolsville.\nDon't you worry about this case, I'm on the job.");
-		scr_new_text_box("BETTY", "Yes, well anyways I'm sure you have questions about \nmy husband's disappearance?", 0, ["19:I do, yes.", "20:I'd rather not have to take in any more exposition."]);
+		scr_new_text_box("BETTY", "Yes, well anyways I'm sure you have questions about \nmy husband's disappearance?", 7, ["19:I do, yes.", "20:I'd rather not have to take in any more exposition."]);
 		break;
 	case 19:
-		scr_new_text_box("BETTY", "Sadly, I didn't see or hear a thing on the night Horace\n disappeared. We sleep in separate rooms you see,\nso it wasn't until the morning that I saw he was gone.");
-		scr_new_text_box("BETTY", "Oh if only I had checked on him before I went to sleep,\n things may have been different!");
-		scr_new_text_box("BETTY", "I left his room how it was the morning of the disappearance,\nplease take a look for any clues he may have left behind.");
-		scr_new_text_box("BETTY", "It's through the door on the right.");
+		scr_new_text_box("BETTY", "Sadly, I didn't see or hear a thing on the night Horace\n disappeared. We sleep in separate rooms you see,\nso it wasn't until the morning that I saw he was gone.", 7);
+		scr_new_text_box("BETTY", "Oh if only I had checked on him before I went to sleep,\n things may have been different!", 7);
+		scr_new_text_box("BETTY", "I left his room how it was the morning of the disappearance,\nplease take a look for any clues he may have left behind.", 7);
+		scr_new_text_box("BETTY", "It's through the door on the right.", 7);
 		scr_new_text_box("CONSTABLE", "Look as hard as you want detective,\n but trust me there's nothing in that room worth finding,\nor I would have already got to it.");
 		scr_betty_dialogue();
 		break;
 	case 20:
-		scr_new_text_box("BETTY", "I guess you're in luck then..");
-		scr_new_text_box("BETTY", "Sadly, I didn't see or hear a thing on the night Horace\n disappeared. We sleep in separate rooms you see,\nso it wasn't until the morning that I saw he was gone.");
-		scr_new_text_box("BETTY", "Oh if only I had checked on him before I went to sleep,\n things may have been different!");
-		scr_new_text_box("BETTY", "I left his room how it was the morning of the disappearance,\nplease take a look for any clues he may have left behind.");
-		scr_new_text_box("BETTY", "It's through the door on the right.");
+		scr_new_text_box("BETTY", "I guess you're in luck then..", 7);
+		scr_new_text_box("BETTY", "Sadly, I didn't see or hear a thing on the night Horace\n disappeared. We sleep in separate rooms you see,\nso it wasn't until the morning that I saw he was gone.", 7);
+		scr_new_text_box("BETTY", "Oh if only I had checked on him before I went to sleep,\n things may have been different!", 7);
+		scr_new_text_box("BETTY", "I left his room how it was the morning of the disappearance,\nplease take a look for any clues he may have left behind.", 7);
+		scr_new_text_box("BETTY", "It's through the door on the right.", 7);
 		scr_new_text_box("CONSTABLE", "Look as hard as you want detective,\n but trust me there's nothing in that room worth finding,\nor I would have already got to it.");
 		scr_betty_dialogue();
 		break;
 	case 21:
-		scr_new_text_box("BETTY", "Really now?! Let's hear it, what did you find?");
+		scr_new_text_box("BETTY", "Really now?! Let's hear it, what did you find?", 7);
 		scr_new_text_box(string_upper(global.first_name), "It might be nothing... but--", 5);
 		scr_new_text_box("CONSTABLE", "You're goddamn right it's nothing!\nTold you the room was empty!");
 		scr_new_text_box(string_upper(global.first_name), "Anyways..", 5);
 		scr_new_text_box(string_upper(global.first_name), "I noticed some crumpled flowers on his floor, would Horace\n have left these on the floor?", 5);
-		scr_new_text_box("BETTY", "Oh heavens no! Horace loved his gardening, but if that \nman was anything, it was clean.");
-		scr_new_text_box("BETTY", "He never would have left such a mess..");
+		scr_new_text_box("BETTY", "Oh heavens no! Horace loved his gardening, but if that \nman was anything, it was clean.", 7);
+		scr_new_text_box("BETTY", "He never would have left such a mess..", 7);
 		scr_new_text_box(string_upper(global.first_name), "Interesting..", 5);
 		scr_new_text_box(string_upper(global.first_name), "I'll ask around, see if I can find anymore clues.", 5);
 		scr_new_text_box("CONSTABLE", "I personally wouldn't classify a few flowers as a clue, \nbut to each their own...");
@@ -104,7 +101,7 @@ switch(argument0) {
 		with instance_create_layer(201, 157, "Entities", obj_betty) {
 			image_index=3;
 			entity_activate_script = scr_new_text_box;
-			entity_activate_args = ["BETTY", "Good luck in your search!"];
+			entity_activate_args = ["BETTY", "Good luck in your search!", 7];
 			entity_npc = true;
 		}
 		
@@ -161,7 +158,7 @@ switch(argument0) {
 		break;
 	case 26:
 		scr_new_text_box("EZEKIEL", "I just wanted to talk with you without\nanyone else here to butt in.", 2);
-		scr_new_text_box("EZEKIEL", "I know\nthe others aren't taking it too seriously,\nbut I swear something weird is going on.", 2);
+		scr_new_text_box("EZEKIEL", "I know the others aren't taking it too seriously,\nbut I swear something weird is going on.", 2);
 		scr_new_text_box("EZEKIEL", "How do you feel about the case?", 2, ["30:I agree, something is extra off here.", "31:Let's wait until we have more info."]);
 		break;
 	case 27:
@@ -239,7 +236,7 @@ switch(argument0) {
 		scr_new_text_box("EZEKIEL", "I'm so glad you agree with me! It's hard when\nwhen everyone treats you like a crazy person.", 2);
 		scr_new_text_box("EZEKIEL", "But four people disappearing, there has to\nbe a supernatural explanation!", 2);
 		scr_new_text_box("EZEKIEL", "Well, with you on my side, we've got to reach\nthe truth!", 2);
-		scr_new_text_box("EZEKIEL", "Thanks again for coming here, " + string(global.last_name) + ".", 2);
+		scr_new_text_box("EZEKIEL", "Thanks again for coming here, " + string(global.first_name) + ".", 2);
 		scr_new_text_box("EZEKIEL", "We sure do need you.", 2);
 		scr_new_text_box("EZEKIEL", "Anyways, it's getting late.", 2);
 		scr_new_text_box("EZEKIEL", "Why don't we call it a night, and\ndo some more investigating tomorrow?", 2, ["0:Sounds like a plan.", "0:Let's get this bread."]);
@@ -251,12 +248,69 @@ switch(argument0) {
 		scr_new_text_box("EZEKIEL", "THIS. ISN'T. NORMAL.", 2);
 		scr_new_text_box("EZEKIEL", "I know I might sound crazy, but you've got\nto trust me here. I've got a feeling!", 2);
 		scr_new_text_box("EZEKIEL", "Regardless of how you feel though,\nI appreciate the help, I really do.", 2);
-		scr_new_text_box("EZEKIEL", "Thanks again for coming here, " + string(global.last_name) + ".", 2);
+		scr_new_text_box("EZEKIEL", "Thanks again for coming here, " + string(global.first_name) + ".", 2);
 		scr_new_text_box("EZEKIEL", "We sure do need you.", 2);
 		scr_new_text_box("EZEKIEL", "Anyways, it's getting late.", 2);
 		scr_new_text_box("EZEKIEL", "Why don't we call it a night, and\ndo some more investigating tomorrow?", 2, ["0:Sounds like a plan.", "0:Let's get this bread."]);
 		global.night = true;
 		global.ezekiel_debrief = true;
+		break;
+	case 32:
+		global.morning_karen_talk = true;
+		scr_new_text_box("KAREN", "Good choice.", 3);
+		scr_new_text_box("KAREN", "The good news is, this whole murder business \nis behind us. Constable caught the culprit last night!", 3);
+		scr_new_text_box("KAREN", "You know the train station attendant, Ryan?\nIt was him all along, the scum.", 3);
+		scr_new_text_box("KAREN", "Anyways, bad news is you're out of a job here.", 3);
+		scr_new_text_box("KAREN", "Turns out you weren't so useful after all, huh?", 3);
+		scr_new_text_box(string_upper(global.first_name), "I'd like to talk to Ryan. Do you know\nwhere I can find him?", 5);
+		scr_new_text_box("KAREN", "You want to talk to him? I guess that's fair\nseeing as you should have been the one to catch him.", 3);
+		scr_new_text_box("KAREN", "He's behind bars, over at the town jail.", 3);
+		scr_new_text_box("KAREN", "Make sure and give him my regards when you see\nthat weasel, I'm going to have to put up job postings\non Craigslist because of him..", 3);
+		scr_add_evidence(5, "A suspect has been placed in custody.");
+		with instance_nearest(143, 224, obj_door) locked = false;
+		break;
+	case 33:
+		global.morning_karen_talk = true;
+		scr_new_text_box("KAREN", "Ok, just don't be sad when you hear it.", 3);
+		scr_new_text_box("KAREN", "The bad news is you're out of a job here.", 3);
+		scr_new_text_box("KAREN", "Constable caught the culprit just last night,\nturns out you weren't so necessary after all, huh?", 3);
+		scr_new_text_box("KAREN", "You know the train station attendant, Ryan?\nIt was him all along, the scum.", 3);
+		scr_new_text_box(string_upper(global.first_name), "I'd like to talk to Ryan. Do you know\nwhere I can find him?", 5);
+		scr_new_text_box("KAREN", "You want to talk to him? I guess that's fair\nseeing as you should have been the one to catch him.", 3);
+		scr_new_text_box("KAREN", "He's behind bars, over at the town jail.", 3);
+		scr_new_text_box("KAREN", "Make sure and give him my regards when you see\nthat weasel, I'm going to have to put up job postings\non Craigslist because of him..", 3);
+		scr_add_evidence(5, "A suspect has been placed in custody.");
+		with instance_nearest(143, 224, obj_door) locked = false;
+		break;
+	case 34:
+		global.talked_to_constable = true;
+		scr_new_text_box("CONSTABLE", "Ah, so you did hear! Well that's just great.");
+		scr_new_text_box("CONSTABLE", "I'm sure you'll understand, lawman to lawman,\nyou really aren't necessary here.");
+		scr_new_text_box("CONSTABLE", "In fact I've decided I won't let you speak to Ryan.");
+		scr_new_text_box("CONSTABLE", "I don't see how you meddling around further\nwill help things.");
+		scr_new_text_box("CONSTABLE", "No 'clues' to be found here. I've found em all!");
+		scr_new_text_box("CONSTABLE", "So how about you just leave? Face it, your\njob's done.", 0, ["35:Not if I can help it.. (FIGHT)", "36:I can't leave until I talk to Ryan."]);
+		break;
+	case 35:
+		room_goto(rm_battle); 
+		global.fought_constable = true; 
+		global.enemy_hit_chance = 11;
+		global.battle_enemy = spr_battle_person_fight;
+		global.current_enemy_health = 100;
+		global.enemy_health = 100;
+		global.enemy_attack_power = 1;
+		global.attacking_strings = ["You can't handle my POWER!!", "SUCKER PUNCH!!", "I AM THE LAW!"];
+		with instance_nearest(x, y, obj_player) {
+			global.pastX = x;
+			global.pastY = y;
+		}
+		global.battle_room = room;
+		break;
+	case 36:
+		scr_new_text_box("CONSTABLE", "Too bad. Ain't gonna happen.");
+		scr_new_text_box("CONSTABLE", "You know, I'm sick of you coming in to steal my shine.\nOne day I'm top dog and the next there's some know-it-all\ndetective from out of town who wants to outshine\nme at every turn...");
+		scr_new_text_box("CONSTABLE", "I mean, since when have FLOWERS been considered a clue?!");
+		scr_new_text_box("CONSTABLE", "You know, I'm done with your attitude.\nYou're gonna regret being such a show-off.", 0, ["35:(FIGHT)"]);
 		break;
 	default: break;
 }
