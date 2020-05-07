@@ -9,14 +9,14 @@ if (!global.betty_dialogue) {
 		
 		with instance_nearest(x, y, obj_betty) instance_destroy();
 		
-		with instance_create_layer(135, 45, "Entities", obj_constable) {
+		with instance_create_layer(268, 151, "Entities", obj_constable) {
 			image_index = 3;
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["CONSTABLE", "How about you do your job and stop talking to me?"];
 			entity_npc = true;
 		}
 		
-		with instance_create_layer(95, 65, "Entities", obj_betty) {
+		with instance_create_layer(201, 157, "Entities", obj_betty) {
 			image_index=3;
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["BETTY", "Find anything?", 0, ["21:Yes."]];
@@ -25,14 +25,14 @@ if (!global.betty_dialogue) {
 	} else {
 		with instance_nearest(x, y, obj_betty) instance_destroy();
 
-		with instance_create_layer(135, 45, "Entities", obj_constable) {
+		with instance_create_layer(268, 151, "Entities", obj_constable) {
 			image_index = 3;
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["CONSTABLE", "How about you do your job and stop talking to me?"];
 			entity_npc = true;
 		}
 
-		with instance_create_layer(95, 65, "Entities", obj_betty) {
+		with instance_create_layer(201, 157, "Entities", obj_betty) {
 			image_index=3;
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["BETTY", "Well hello there sonny, you must be that detective\nI've been hearing about.", 0, ["18:That I am.", "18:You're goddamn right I am."]];
@@ -51,7 +51,7 @@ if (!global.betty_dialogue) {
 		locked = false;
 	}
 	
-	with instance_create_layer(95, 65, "Entities", obj_betty) {
+	with instance_create_layer(201, 157, "Entities", obj_betty) {
 		image_index=3;
 		entity_activate_script = scr_new_text_box;
 		entity_activate_args = ["BETTY", "Take a look at Horace's room on the right.", 0, ["0:Alright then.", "0:Fine."]];

@@ -19,7 +19,7 @@ if (!global.textOnScreen) {
 			instance_destroy();
 		}
 		
-		y = clamp(y+1, y, 222);
+		if x<=143{y = clamp(y+1, y, 222);}
 		x = clamp(x-1, 143, x);
 	}
 }

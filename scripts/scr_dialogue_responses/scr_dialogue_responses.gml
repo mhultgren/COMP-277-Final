@@ -94,14 +94,14 @@ switch(argument0) {
 		with instance_nearest(x, y, obj_betty) instance_destroy();
 		with instance_nearest(x, y, obj_constable) instance_destroy();
 		
-		with instance_create_layer(135, 45, "Entities", obj_constable) {
+		with instance_create_layer(268, 151, "Entities", obj_constable) {
 			image_index = 3;
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["CONSTABLE", "Beginner's luck."];
 			entity_npc = true;
 		}
 		
-		with instance_create_layer(95, 65, "Entities", obj_betty) {
+		with instance_create_layer(201, 157, "Entities", obj_betty) {
 			image_index=3;
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["BETTY", "Good luck in your search!"];

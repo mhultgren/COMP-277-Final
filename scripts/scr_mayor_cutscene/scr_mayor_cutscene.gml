@@ -6,7 +6,7 @@ if (cutscene_start) {
 	global.walk_to_mayor = true;
 	obj_player.sprite_index=spr_player_left;
 	
-	with instance_create_layer(110, 80, "Entities", obj_ezekiel) {
+	with instance_create_layer(110, 85, "Entities", obj_ezekiel) {
 		entity_activate_script = scr_new_text_box;
 		entity_activate_args = ["EZEKIEL", "Thanks again for signing on to help. No one else\nis on my side here.", 2];
 		entity_npc = true;
@@ -16,7 +16,7 @@ if (cutscene_start) {
 		instance_destroy();
 	}
 
-	with instance_create_layer(158, 32, "Entities", obj_mayor) {
+	with instance_create_layer(160, 48, "Entities", obj_mayor) {
 		image_index=3;
 		entity_activate_script = scr_new_text_box;
 		entity_activate_args = ["PERCY", "You can head to the motel nearby, we've got a room \nfor you there."];
@@ -27,7 +27,7 @@ if (cutscene_start) {
 }
 
 with instance_nearest(x, y, obj_player) {
-	if (x <= 158 && y <= 80) {
+	if (x <= 158 && y <= 98) {
 		global.walk_to_mayor = false;
 		
 		obj_player.sprite_index=spr_player_up_idle;
@@ -64,7 +64,7 @@ with instance_nearest(x, y, obj_player) {
 	
 	if (global.walk_to_mayor) {
 		if (x != 158) x -= player_speed;
-		if (y != 80) y -= player_speed;
+		if (y != 98) y += player_speed;
 	}
 }
 
