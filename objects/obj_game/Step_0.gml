@@ -41,5 +41,5 @@ if (battleEnded) {
 global.current_player_health = clamp(global.current_player_health, 0, global.player_health);
 
 if (global.current_player_health == 0) {
-	//game_restart();
+	script_execute(global.death_script);
 }

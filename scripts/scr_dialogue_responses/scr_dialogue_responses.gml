@@ -382,23 +382,7 @@ switch(argument0) {
 		global.enemy_attack_power = 50;
 		global.player_attack_power = 5;
 		global.attacking_strings = ["DIE!!!", "RAWR", "AWOOOOOO"];
-		with instance_nearest(x, y, obj_player) {
-			global.pastX = x;
-			global.pastY = y;
-		}
-		global.battle_room = room;
-		break;
-	case 44:
-		global.cutscene = false;
-		room_goto(rm_battle);
-		global.enemy_hit_chance = 2;
-		global.battle_enemy = spr_battle_person_fight;
-		global.current_enemy_health = 300;
-		global.enemy_health = 300;
-		global.enemy_attack_power = 50;
-		global.player_attack_power = 150;
-		global.hit_chance = 10;
-		global.attacking_strings = ["DIE!!!", "RAWR", "AWOOOOOO"];
+		global.death_script = scr_ww_defeat;
 		with instance_nearest(x, y, obj_player) {
 			global.pastX = x;
 			global.pastY = y;

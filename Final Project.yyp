@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "2286af48-4a1c-4791-a8ee-919e20d746d3",
+            "Value": {
+                "id": "80e9be9b-f7ab-46bd-b513-e55fbc1f9fc7",
+                "resourcePath": "scripts\\scr_ww_defeat\\scr_ww_defeat.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "23386799-4637-4bfb-bc8e-27361080c3c2",
             "Value": {
                 "id": "a736f525-e657-430a-999b-2858b8efe694",
@@ -1519,6 +1527,14 @@
             }
         },
         {
+            "Key": "8f73dcbd-ad26-4365-bb8d-7a2a59ae1227",
+            "Value": {
+                "id": "38c8404b-4063-40a9-b6e3-2e4b4be7dabb",
+                "resourcePath": "scripts\\scr_bellboy_die\\scr_bellboy_die.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8fea07a0-d043-4166-be96-4ed39f1f7096",
             "Value": {
                 "id": "513df901-4457-4b3e-9749-91a2c8df8a0c",
@@ -2119,6 +2135,14 @@
             }
         },
         {
+            "Key": "d229a4e4-24da-419a-870f-7cb871419666",
+            "Value": {
+                "id": "b3bb91f0-7347-4b5a-b75c-95bda4d6c7e7",
+                "resourcePath": "views\\d229a4e4-24da-419a-870f-7cb871419666.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d2724af1-74be-4a48-95f7-64b351ac8bbf",
             "Value": {
                 "id": "cf38255b-174e-42d5-80fb-9a967fa6ca21",
@@ -2308,6 +2332,14 @@
                 "id": "82279a3e-a947-4e94-aae0-5df28232ca87",
                 "resourcePath": "options\/android\/options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e43fe6d3-cf05-45bc-8d61-ded5922e79e8",
+            "Value": {
+                "id": "7986549f-a319-4037-80f4-de25713a4a6d",
+                "resourcePath": "scripts\\scr_stranger_die\\scr_stranger_die.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2552,7 +2584,10 @@
         "abcade7d-1f9f-47d1-b360-c2ec10bdc0a5",
         "e08b729e-c9fd-4bbe-9156-e8f7796c330a",
         "144be0ab-31ff-44da-b931-6041d9c9d34e",
-        "b1dfafaa-cbc1-419f-a796-bc4fbd8bc903"
+        "b1dfafaa-cbc1-419f-a796-bc4fbd8bc903",
+        "8f73dcbd-ad26-4365-bb8d-7a2a59ae1227",
+        "e43fe6d3-cf05-45bc-8d61-ded5922e79e8",
+        "2286af48-4a1c-4791-a8ee-919e20d746d3"
     ],
     "tutorial": ""
 }

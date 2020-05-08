@@ -10,7 +10,4 @@ global.player_attack_power = 20;
 global.cutscene = false;
 
 // chance of hitting enemy (out of 10)
-global.hit_chance = 6;
-
-state = states.active;
-states_array[states.active] = state_active;
+global.hit_chance = 8;

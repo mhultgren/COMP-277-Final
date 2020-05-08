@@ -2,15 +2,6 @@
 // ex: case 4 in scr_dialogue_responses
 sprite_index = global.battle_enemy;
 
-if (global.werewolf_fought && !global.first_defeat) {
-	if (global.current_player_health <= 0) {
-		global.first_defeat = true;
-		global.current_player_health = 100;
-		room_goto(global.battle_room);
-		with instance_nearest(x, y, obj_game) battleEnded = true;
-	}
-}
-
 if (appearing) {
 	image_xscale = clamp(image_xscale + .01, 0, image_maxscale);
 	image_yscale = clamp(image_xscale + .01, 0, image_maxscale);
