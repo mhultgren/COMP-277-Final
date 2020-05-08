@@ -1,6 +1,6 @@
 target_x = 14;
 target_y = 96;
-target_room = rm_policeStationCells;
+target_room = rm_intoToPuzzle;
 
-locked = true;
+locked = false;
 lockedText = "Locked.";

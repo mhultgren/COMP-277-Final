@@ -32,5 +32,5 @@ global.first_defeat = false;
 global.werewolf_defeated = false;
 
 // MISC. VARIABLES
-global.day_number = 3;
+global.day_number = 1;
 global.night = false;
