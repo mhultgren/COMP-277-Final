@@ -10,7 +10,12 @@
         "2790d7fe-ba69-4399-9bab-0c580feabb76",
         "07ba8946-3f5a-475d-af80-7189c48ab749",
         "bf558253-4809-461f-95da-ab6c31266adb",
-        "cd135d92-fcdb-4928-97bc-af92bc3d4cc4"
+        "95efcf89-2f0e-487e-9248-32a3cd4769d3",
+        "cd135d92-fcdb-4928-97bc-af92bc3d4cc4",
+        "08e6de5f-5c7d-45ef-9b37-daf794e685f4",
+        "b4094c76-e753-4593-ac63-765b84a55b3e",
+        "58146b30-dc0c-45ef-8436-78305600b836",
+        "796a79cf-5beb-4f39-ba0e-8801b026c11a"
     ],
     "filterType": "GMObject",
     "folderName": "Puzzle",
