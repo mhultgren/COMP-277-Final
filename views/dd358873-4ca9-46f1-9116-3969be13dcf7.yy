@@ -17,7 +17,8 @@
         "3f26d8c8-909d-45d2-bf9b-616c602cd22a",
         "f1ef8ed3-63d6-4662-b804-2e40f1385103",
         "089edc57-1df3-480c-81dd-ad624f70d5e9",
-        "a881956d-9b9b-400a-b383-95b5a9893e71"
+        "a881956d-9b9b-400a-b383-95b5a9893e71",
+        "186dfd21-c0d3-43c4-91a8-af5e99649f7e"
     ],
     "filterType": "GMScript",
     "folderName": "Cutscene Scripts",

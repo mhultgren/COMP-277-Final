@@ -4,7 +4,6 @@ if (cutscene_start) {
 	global.cutscene = true;
 	global.werewolf_defeated = true;
 	global.begin_dialogue = true;
-	global.gun_thrown = false;
 	global.start_fight = false;
 
 	with instance_create_layer(160, 32, "Entities", obj_ezekiel) image_index = 3;

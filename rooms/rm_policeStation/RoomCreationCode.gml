@@ -27,12 +27,18 @@ if (global.day_number == 3) {
 			entity_activate_args = ["CONSTABLE", "No way you're getting through that door.\nB-)"];
 		}
 		
+		with instance_nearest(310, 94, obj_door) {
+			target_room = rm_intoToPuzzle;
+			locked = false;
+		}
+		
 		with instance_create_layer(x, y, "Player", obj_cutscene) {
 			script = scr_constable_defeated;
 		}
 	}
 	
 	if (global.talk_to_ryan) {
+		with instance_nearest(310, 94, obj_door) locked = false;
 		with instance_nearest(0, 0, obj_constable) {
 			entity_activate_args = ["CONSTABLE", "I bet you feel real tough beating up a police officer.\nCan't believe I swallowed that key for nothing.."];
 		}

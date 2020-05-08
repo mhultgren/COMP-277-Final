@@ -10,8 +10,14 @@ if (!instance_exists(obj_player)) {
 
 if (!global.werewolf_fought) {
 	scr_werewolf_cutscene();
-} else if (global.werewolf_fought && !global.werewolf_defeated) {
+} 
+else if (global.werewolf_fought && !global.werewolf_defeated) {
 	with instance_create_layer(x, y, "Player", obj_cutscene) {
 		script = scr_get_gun;
+	}
+}
+else if (global.werewolf_defeated) {
+	with instance_create_layer(x, y, "Player", obj_cutscene) {
+		script = scr_end;
 	}
 }

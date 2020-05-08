@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_end_teaser",
+    "name": "rm_end",
     "id": "38603084-8b60-46f1-9977-72e8d42bd31f",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

@@ -3,7 +3,7 @@ if (just_unpaused) {
 	show_debug_message("resize");
 	show_debug_message(room);
 	if (room!=rm_0 && room!=rm_forest){
-	surface_resize(application_surface, room_width, room_height);}
+	surface_resize(application_surface, 640, 480);}
 	show_debug_message("resize");
 	just_unpaused = false;
 }
