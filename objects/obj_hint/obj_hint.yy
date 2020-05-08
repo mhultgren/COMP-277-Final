@@ -1,18 +1,28 @@
 {
-    "id": "bf558253-4809-461f-95da-ab6c31266adb",
+    "id": "b4094c76-e753-4593-ac63-765b84a55b3e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_goToPuzzle",
+    "name": "obj_hint",
     "eventList": [
         {
-            "id": "44d6eb10-d722-4941-af20-5c2efdf5bf91",
+            "id": "8e4bbdea-ea73-47d4-9964-33d7eeda8bfa",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "b4094c76-e753-4593-ac63-765b84a55b3e"
+        },
+        {
+            "id": "ab85976f-4ee0-4846-879c-61b35d897cac",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "bf558253-4809-461f-95da-ab6c31266adb"
+            "eventtype": 0,
+            "m_owner": "b4094c76-e753-4593-ac63-765b84a55b3e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "f907e867-4da5-4f8f-8b20-05a6e420b09e",
+    "spriteId": "392b488b-8d2b-427e-971d-d289e9d0fbc4",
     "visible": true
 }
