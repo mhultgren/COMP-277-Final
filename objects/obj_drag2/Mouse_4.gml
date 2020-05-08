@@ -5,7 +5,6 @@ grab = true;
 	xx = x - mouse_x;
 	yy = y - mouse_y;
 	
-	
-global.grab1 = true;
-global.grab2 = false;
-global.grab3 = false;
+	global.grab1 = false;
+	global.grab2 = true;
+	global.grab3 = false;

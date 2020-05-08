@@ -1,23 +1,14 @@
 {
-    "id": "cd135d92-fcdb-4928-97bc-af92bc3d4cc4",
+    "id": "1aa89a0c-c0cc-4e63-82cb-897839c80a79",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_exitKeyHole",
+    "name": "obj_puzzleTemp3",
     "eventList": [
-        {
-            "id": "e6e1e9d6-87ce-44a8-b8c3-39b3aa964d3a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
-            "m_owner": "cd135d92-fcdb-4928-97bc-af92bc3d4cc4"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "395165d9-39c7-4034-9449-de6cd2841572",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "8efcbdf8-a90b-46ee-ba0c-710d086edf84",
     "visible": true
 }

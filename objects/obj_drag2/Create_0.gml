@@ -3,4 +3,4 @@
 grab = false;
 xx = 0;
 yy = 0;
-global.grab1 = false;
+global.grab2 = false;

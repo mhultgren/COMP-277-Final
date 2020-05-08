@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(global.grab1 = true){
+if(global.grab3 = true){
 if(keyboard_check(ord("W"))){
 	sprite_index = spr_puzzleTempUp;
 }

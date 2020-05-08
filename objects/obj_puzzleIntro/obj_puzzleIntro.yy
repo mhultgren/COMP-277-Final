@@ -1,18 +1,18 @@
 {
-    "id": "cd135d92-fcdb-4928-97bc-af92bc3d4cc4",
+    "id": "f5e694e0-577d-4bab-aad9-1e2b9ad5ed3c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_exitKeyHole",
+    "name": "obj_puzzleIntro",
     "eventList": [
         {
-            "id": "e6e1e9d6-87ce-44a8-b8c3-39b3aa964d3a",
+            "id": "f097f143-42e3-4271-8107-4419b269b53d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
-            "m_owner": "cd135d92-fcdb-4928-97bc-af92bc3d4cc4"
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "f5e694e0-577d-4bab-aad9-1e2b9ad5ed3c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
