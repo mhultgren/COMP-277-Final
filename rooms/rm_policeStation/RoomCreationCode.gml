@@ -13,7 +13,7 @@ if (global.day_number == 3) {
 		}
 	}
 	
-	if (global.fought_constable && global.current_enemy_health <= 0) {
+	if (global.fought_constable && !global.talk_to_ryan) {
 		global.fought_constable = false;
 		
 		with instance_nearest(160, 231, obj_door) {
@@ -27,6 +27,12 @@ if (global.day_number == 3) {
 		
 		with instance_create_layer(x, y, "Player", obj_cutscene) {
 			script = scr_constable_defeated;
+		}
+	}
+	
+	if (global.talk_to_ryan) {
+		with instance_nearest(0, 0, obj_constable) {
+			entity_activate_args = ["CONSTABLE", "I bet you feel real tough beating up a police officer.\nCan't believe I swallowed that key for nothing.."];
 		}
 	}
 }

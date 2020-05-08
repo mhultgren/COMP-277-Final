@@ -47,7 +47,6 @@ if argument[0]==1{
 	curr_slot[10]=1;
 	curr_slot[11]=obj_motel_key;
 }
-
 global.item_array[global.next_fillable_item_index]=curr_slot;
 
 global.next_fillable_item_index+=1;

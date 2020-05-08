@@ -1,0 +1,1 @@
+draw_fur = false;

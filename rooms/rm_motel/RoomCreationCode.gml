@@ -109,5 +109,7 @@ if (global.day_number == 3) {
 			entity_npc = true;
 		}
 	}
+	
+	if (global.night) with instance_nearest(0, 0, obj_motel_owner) instance_destroy();
 }
 #endregion

@@ -24,6 +24,8 @@ global.fought_stranger = false;
 global.morning_karen_talk = false;
 global.talked_to_constable = false;
 global.fought_constable = false;
+global.talk_to_ryan = false;
+global.talked_to_leroy = false;
 
 // MISC. VARIABLES
 global.day_number = 1;

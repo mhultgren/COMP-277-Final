@@ -312,5 +312,65 @@ switch(argument0) {
 		scr_new_text_box("CONSTABLE", "I mean, since when have FLOWERS been considered a clue?!");
 		scr_new_text_box("CONSTABLE", "You know, I'm done with your attitude.\nYou're gonna regret being such a show-off.", 0, ["35:(FIGHT)"]);
 		break;
+	case 37:
+		global.talk_to_ryan = true;
+		
+		with instance_nearest(x, y, obj_station_attendant) {
+			entity_activate_args = ["RYAN", "Please, go to the forest and find the culprit!", 1];
+		}
+		
+		scr_new_text_box("RYAN", "Look, like I told you already, I didn't do anything!\nI have no idea what's going on, same as you!", 1);
+		scr_new_text_box(string_upper(global.first_name), "I'm not with the constable. I want to hear your side\nof what happened.", 5);
+		scr_new_text_box("RYAN", "Fine. No harm in telling you, I guess.", 1);
+		scr_new_text_box("RYAN", "I was just going home after a long, boring\nday at the station, when I heard something coming from\nthe forest.", 1);
+		scr_new_text_box("RYAN", "I went to investigate, but by the time I arrived\nit had stopped.", 1);
+		scr_new_text_box("RYAN", "Soon as I get back on the path home, the constable's\nthere waiting.", 1);
+		scr_new_text_box("RYAN", "I guess someone else had reported the noise, and\nseeing as I was the only one at the scene I was branded\nas guilty.", 1);
+		scr_new_text_box("RYAN", "But come on, what kind of evidence is that?\nYou ask me they're just looking for someone to scapegoat.", 1);
+		scr_new_text_box("RYAN", "We get so few tourists as it is, this is\nnothing but bad publicity.", 1);
+		scr_new_text_box("RYAN", "You believe me, right?", 1, ["38:Yes", "39:I can't be sure yet."]);
+		break;
+	case 38:
+		scr_new_text_box("RYAN", "Oh thank god! Then you can help!", 1);
+		scr_new_text_box("RYAN", "There's something going on in the forest,\nI'm sure you can find something there!", 1);
+		scr_new_text_box("RYAN", "That old farmer's got to know something too.\nHe must have been the one to make the call.", 1);
+		scr_new_text_box("RYAN", "His house is just up the forest path.", 1);
+		scr_new_text_box("RYAN", "Please find whoever did this!", 1);
+		scr_add_evidence(6, "There was a strange noise near the farm in the woods.");
+		break;
+	case 39:
+		scr_new_text_box("RYAN", "Well that's inspiring..", 1);
+		scr_new_text_box("RYAN", "Look, if you just talk to that old farmer\nin the forest, he must have been the one to make\nthe call. He can exonerate me!", 1);
+		scr_new_text_box("RYAN", "His house is just up the forest path.", 1);
+		scr_new_text_box("RYAN", "Please find whoever did this!", 1);
+		scr_add_evidence(6, "There was a strange noise near the farm in the woods.");
+		break;
+	case 40:
+		global.talked_to_leroy = true;
+		with instance_nearest(0, 0, obj_farmer) {
+			entity_activate_args = ["LEROY", "Good luck pardner.", 4];
+		}
+		scr_new_text_box("LEROY", "As a matter of fact I did. Called the constable too.", 4);
+		scr_new_text_box(string_upper(global.first_name), "Can you tell me more about this noise?", 5);
+		scr_new_text_box("LEROY", "Well I can tell you it sure weren't natural.\nSounded like a wild animal, but DIFFERENT, somehow, ya know?", 4);
+		scr_new_text_box("LEROY", "Gave me the heebiejeebies, it did.", 4);
+		scr_new_text_box("LEROY", "Went over to check it out this morning, and\nI found this:", 4, ["41:(EXAMINE)"]);
+		break;
+	case 41:
+		with instance_nearest(0, 0, obj_farmer) {
+			draw_fur = true;
+		}
+		scr_new_text_box(string_upper(global.first_name), "What is this? Fur?", 5);
+		scr_new_text_box("LEROY", "Sure is, big clumps all over the branches.", 4, ["42:(PUT AWAY)"]);
+		break;
+	case 42:
+		with instance_nearest(0, 0, obj_farmer) {
+			draw_fur = false;
+		}
+		scr_new_text_box("LEROY", "You ask me, whatever it is went off to the\ncave just east of here.", 4);
+		scr_new_text_box("LEROY", "Bet that thing's responsible for me sheep goin missin too..", 4);
+		scr_new_text_box("LEROY", "If you go after it, be careful. I don't think\nitd be too friendly.", 4);
+		scr_new_text_box(string_upper(global.first_name), "Thanks for the tip, I will.", 5);
+	break;
 	default: break;
 }
