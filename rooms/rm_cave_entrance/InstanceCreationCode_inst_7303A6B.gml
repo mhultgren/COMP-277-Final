@@ -1,3 +1,3 @@
-target_x = 144;
-target_y = 212;
+target_x = 160;
+target_y = 190;
 target_room = rm_cave_inside;

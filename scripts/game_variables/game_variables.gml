@@ -26,7 +26,11 @@ global.talked_to_constable = false;
 global.fought_constable = false;
 global.talk_to_ryan = false;
 global.talked_to_leroy = false;
+global.ezekiel_missing = true;
+global.werewolf_fought = false;
+global.first_defeat = false;
+global.werewolf_defeated = false;
 
 // MISC. VARIABLES
-global.day_number = 1;
+global.day_number = 3;
 global.night = false;

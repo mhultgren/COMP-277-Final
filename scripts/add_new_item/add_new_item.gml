@@ -47,6 +47,30 @@ if argument[0]==1{
 	curr_slot[10]=1;
 	curr_slot[11]=obj_motel_key;
 }
+if argument[0]==2{
+	curr_slot[2] = "Flowers";
+	curr_slot[3] = "Flowers found on Horace's\nfloor";
+	curr_slot[10] = 0;
+	curr_slot[11] = obj_flowers_inventory;
+}
+if argument[0]==3{
+	curr_slot[2] = "Bellboy's Cap";
+	curr_slot[3] = "The bellboy's cap, covered\nin blood.";
+	curr_slot[10] = 0;
+	curr_slot[11] = obj_cap_inventory;
+}
+if argument[0]==4{
+	curr_slot[2] = "Gray Fur";
+	curr_slot[3] = "Clump of fur found in the\nforest.";
+	curr_slot[10] = 0;
+	curr_slot[11] = obj_fur;
+}
+if argument[0]==5{
+	curr_slot[2] = "Gun";
+	curr_slot[3] = "It's a gun. What else do you\nneed to know?";
+	curr_slot[10] = 0;
+	curr_slot[11] = obj_gun_inventory;
+}
 global.item_array[global.next_fillable_item_index]=curr_slot;
 
 global.next_fillable_item_index+=1;

@@ -364,6 +364,7 @@ switch(argument0) {
 		scr_new_text_box("LEROY", "Sure is, big clumps all over the branches.", 4, ["42:(PUT AWAY)"]);
 		break;
 	case 42:
+		add_new_item(4);
 		with instance_nearest(0, 0, obj_farmer) {
 			draw_fur = false;
 		}
@@ -371,6 +372,38 @@ switch(argument0) {
 		scr_new_text_box("LEROY", "Bet that thing's responsible for me sheep goin missin too..", 4);
 		scr_new_text_box("LEROY", "If you go after it, be careful. I don't think\nitd be too friendly.", 4);
 		scr_new_text_box(string_upper(global.first_name), "Thanks for the tip, I will.", 5);
-	break;
+		break;
+	case 43:
+		room_goto(rm_battle);
+		global.enemy_hit_chance = 11;
+		global.battle_enemy = spr_battle_person_fight;
+		global.current_enemy_health = 300;
+		global.enemy_health = 300;
+		global.enemy_attack_power = 50;
+		global.player_attack_power = 5;
+		global.attacking_strings = ["DIE!!!", "RAWR", "AWOOOOOO"];
+		with instance_nearest(x, y, obj_player) {
+			global.pastX = x;
+			global.pastY = y;
+		}
+		global.battle_room = room;
+		break;
+	case 44:
+		global.cutscene = false;
+		room_goto(rm_battle);
+		global.enemy_hit_chance = 2;
+		global.battle_enemy = spr_battle_person_fight;
+		global.current_enemy_health = 300;
+		global.enemy_health = 300;
+		global.enemy_attack_power = 50;
+		global.player_attack_power = 150;
+		global.hit_chance = 10;
+		global.attacking_strings = ["DIE!!!", "RAWR", "AWOOOOOO"];
+		with instance_nearest(x, y, obj_player) {
+			global.pastX = x;
+			global.pastY = y;
+		}
+		global.battle_room = room;
+		break;
 	default: break;
 }
