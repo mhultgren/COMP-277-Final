@@ -10,7 +10,6 @@
         "8efcbdf8-a90b-46ee-ba0c-710d086edf84",
         "b265f629-57e8-401e-9924-04777f1e8e1e",
         "f907e867-4da5-4f8f-8b20-05a6e420b09e",
-        "e939cc77-a2fd-4432-a207-b57dcc67e1c1",
         "3d95977a-7aae-471d-8fb5-f85cdff77343",
         "45cf8af1-5d4b-4d56-982b-e52bd91df88d",
         "f34b047d-7775-4aad-88a6-feaac9ab910b",
@@ -23,7 +22,6 @@
         "3178b318-a4ad-42fa-83a9-815b792c878d",
         "3e9abe87-00ca-44da-a0fa-2e6c6910b6db",
         "db61beaf-15e1-43d2-a15e-665c8ef69f6c",
-        "ba826353-3436-42e5-a41d-5d89081a23d1",
         "df546225-3e84-4f42-b25c-ef597cd5bbeb"
     ],
     "filterType": "GMSprite",
