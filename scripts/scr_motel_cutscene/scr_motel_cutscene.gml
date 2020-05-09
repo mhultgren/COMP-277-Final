@@ -20,6 +20,7 @@ if (cutscene_start) {
 
 with instance_nearest(x, y, obj_player) {
 	if (x <= 45 && y <= 90) {
+		sprite_index=spr_player_up_idle;
 		global.walk_to_owner = false;
 	
 		if (global.begin_dialogue) {
@@ -42,6 +43,7 @@ with instance_nearest(x, y, obj_player) {
 	}
 	
 	if (global.walk_to_owner) {
+		sprite_index=spr_player_up;
 		if (x != 45) x -= player_speed;
 		if (y != 90) y -= player_speed;
 	}
