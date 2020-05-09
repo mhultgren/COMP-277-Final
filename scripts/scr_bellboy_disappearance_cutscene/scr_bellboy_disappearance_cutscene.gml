@@ -32,8 +32,8 @@ with instance_nearest(x, y, obj_ezekiel) {
 	}
 	
 	if (global.walk_to_player) {
-		if (x != 480) x -= 3;
-		if (y != 225) y -= 3;
+		if (x != 480) {x -= 3; sprite_index=spr_Ezekiel_left;}
+		if (y != 225) {y -= 3; sprite_index=spr_Ezekiel_down;}
 	}
 }
 

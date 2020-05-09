@@ -7,6 +7,7 @@ if (cutscene_start) {
 	obj_player.sprite_index=spr_player_left;
 	
 	with instance_create_layer(110, 85, "Entities", obj_ezekiel) {
+		image_index=0;
 		entity_activate_script = scr_new_text_box;
 		entity_activate_args = ["EZEKIEL", "Thanks again for signing on to help. No one else\nis on my side here.", 2];
 		entity_npc = true;

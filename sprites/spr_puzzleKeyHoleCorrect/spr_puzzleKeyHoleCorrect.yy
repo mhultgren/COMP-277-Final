@@ -34,14 +34,50 @@
                     "mvc": "1.0",
                     "FrameId": "ed44901c-2b35-4f5f-853f-fce5d1d3726e",
                     "LayerId": "7603a99b-6828-4199-aa2b-4e185f5539b2"
+                },
+                {
+                    "id": "6ba72ce3-39d7-408a-8caf-0fe4d7fefe44",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "ed44901c-2b35-4f5f-853f-fce5d1d3726e",
+                    "LayerId": "d4792f59-ebb0-4181-837e-232f680234cc"
+                },
+                {
+                    "id": "b54cc2f6-23d0-4be9-82da-e79448d2024b",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "ed44901c-2b35-4f5f-853f-fce5d1d3726e",
+                    "LayerId": "25a1ed8c-31f1-48c9-a4c2-5c83329a756f"
                 }
             ]
         }
     ],
-    "gridX": 0,
-    "gridY": 0,
+    "gridX": 2,
+    "gridY": 2,
     "height": 32,
     "layers": [
+        {
+            "id": "d4792f59-ebb0-4181-837e-232f680234cc",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "45cf8af1-5d4b-4d56-982b-e52bd91df88d",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 1",
+            "opacity": 100,
+            "visible": true
+        },
+        {
+            "id": "25a1ed8c-31f1-48c9-a4c2-5c83329a756f",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "45cf8af1-5d4b-4d56-982b-e52bd91df88d",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 2",
+            "opacity": 100,
+            "visible": true
+        },
         {
             "id": "7603a99b-6828-4199-aa2b-4e185f5539b2",
             "modelName": "GMImageLayer",
@@ -51,7 +87,7 @@
             "isLocked": false,
             "name": "default",
             "opacity": 100,
-            "visible": true
+            "visible": false
         }
     ],
     "origin": 4,

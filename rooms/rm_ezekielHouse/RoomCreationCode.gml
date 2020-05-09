@@ -33,7 +33,7 @@ if (global.day_number == 3) {
 	}
 	
 	if (global.night) {
-		instance_create_layer(46, 94, "Entities", obj_empty_slash_marks);
+		instance_create_layer(46, 94, "Instances", obj_empty_slash_marks);
 		
 		if (!global.ezekiel_missing) {
 			global.ezekiel_missing = true;

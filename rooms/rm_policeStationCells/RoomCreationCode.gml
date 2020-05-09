@@ -9,7 +9,7 @@ if (!instance_exists(obj_player)) {
 }
 
 if (global.day_number == 3) {
-	instance_create_layer(78, 185, "Entities", obj_station_attendant)
+	instance_create_layer(78, 192, "Entities", obj_station_attendant)
 	if (!global.talk_to_ryan) {
 		with instance_nearest(0, 0, obj_station_attendant) {
 			image_index = 1;

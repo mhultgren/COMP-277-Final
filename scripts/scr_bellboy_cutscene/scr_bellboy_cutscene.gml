@@ -19,7 +19,12 @@ if (!global.textOnScreen) {
 			instance_destroy();
 		}
 		
-		if x<=143{y = clamp(y+1, y, 222);}
+		if x<=143{
+			sprite_index=spr_bellboy_down;
+			y = clamp(y+1, y, 222);
+			}
+		else{sprite_index=spr_bellboy_left;}
+				
 		x = clamp(x-1, 143, x);
 	}
 }

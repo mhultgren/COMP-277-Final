@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_betty",
     "eventList": [
-        
+        {
+            "id": "70e6c47e-f0f1-4370-8c47-4447b9ff25a2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "70b378a0-4d3f-4c73-8709-bae6fb28482e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "36b73944-61fe-4c9b-a1ca-37d3026f7791",
+    "spriteId": "f3b72c73-5506-4e37-b5c9-d6a6295b3428",
     "visible": true
 }

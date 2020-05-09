@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_bellboy",
     "eventList": [
-        
+        {
+            "id": "1334cf3e-986a-452d-949f-af7ab97a635c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "a8001425-9273-4f08-90f3-b7b5c7ab7b65"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8fea07a0-d043-4166-be96-4ed39f1f7096",
+    "spriteId": "276cc9a5-a730-4402-ab4d-fb6d4f633db0",
     "visible": true
 }

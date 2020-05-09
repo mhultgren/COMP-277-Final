@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_motel_owner",
     "eventList": [
-        
+        {
+            "id": "35734ee3-00d4-4c5d-b6d4-5f32ce61298b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3dcc4e76-6e05-4167-8f19-e8030b7440e3"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "628d0181-e889-40fc-b760-d111f96c19ef",
+    "spriteId": "fe847df7-9caf-4caf-8902-be9b9a9de5ee",
     "visible": true
 }

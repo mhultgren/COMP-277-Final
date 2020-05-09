@@ -27,7 +27,7 @@ if (!global.textOnScreen && !global.begin_dialogue) {
 	global.cutscene = false;
 	
 	room_goto(rm_battle); 
-	global.battle_enemy = spr_stranger_fight;
+	global.battle_enemy = spr_mysterybattle_fight;
 	with instance_nearest(x, y, obj_player) {
 		global.pastX = x;
 		global.pastY = y;

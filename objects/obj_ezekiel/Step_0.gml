@@ -1,6 +1,7 @@
 if (global.day_number == 1) {
 	if (!global.textOnScreen && leave_station) {
-		image_index = 1;
+		sprite_index=spr_Ezekiel_up
+		//image_index = 1;
 		y -= 1;
 	}
 

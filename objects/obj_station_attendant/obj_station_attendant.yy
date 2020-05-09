@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_station_attendant",
     "eventList": [
-        
+        {
+            "id": "6fcb90ea-6472-4b97-9351-802396c4fa96",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "992c5ee7-18aa-47e9-a332-8669ef968e44"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -33,6 +42,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "d9159cb9-58e8-4ae7-9a0c-6e693943d29d",
+    "spriteId": "9147d2c4-28ac-48d7-8c87-54ec13f91f8d",
     "visible": true
 }

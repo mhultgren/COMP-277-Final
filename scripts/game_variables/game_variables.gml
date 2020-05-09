@@ -21,7 +21,7 @@ global.stranger_cutscene = false;
 global.fought_stranger = false;
 
 // DAY 3
-global.morning_karen_talk = false;
+global.morning_karen_talk = true;
 global.talked_to_constable = false;
 global.fought_constable = false;
 global.talk_to_ryan = false;
@@ -33,5 +33,5 @@ global.gun_thrown = false;
 global.werewolf_defeated = false;
 
 // MISC. VARIABLES
-global.day_number = 1;
+global.day_number = 3;
 global.night = false;

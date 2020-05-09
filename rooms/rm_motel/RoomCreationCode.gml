@@ -36,7 +36,7 @@ if (global.day_number == 2) {
 			instance_destroy();
 		}
 
-		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+		with instance_create_layer(44, 40, "Entities", obj_motel_owner) {
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["KAREN", "Morning detective. Ready to work?", 3, ["16:I was born ready.", "17:I'd rather stay in bed if that's OK.."]];
 			entity_npc = true;
@@ -51,13 +51,14 @@ if (global.day_number == 2) {
 			lockedText = "I should investigate this disappearance.";
 		}
 
-		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+		with instance_create_layer(44, 40, "Entities", obj_motel_owner) {
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["KAREN", "Detective, I'm sure you heard the news?", 3, ["22:The bellboy's gone?"]];
 			entity_npc = true;
 		}
 		
 		with instance_create_layer(47, 175,"Entities", obj_ezekiel) {
+			sprite_index=1;
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["EZEKIEL", "This is not good!!", 2];
 			entity_npc = true;
@@ -67,7 +68,7 @@ if (global.day_number == 2) {
 			instance_destroy();
 		}
 
-		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+		with instance_create_layer(44, 40, "Entities", obj_motel_owner) {
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["KAREN", "Well, anything?", 3, ["23:Yes.", "23:You know it."]];
 			entity_npc = true;
@@ -82,7 +83,7 @@ if (global.day_number == 2) {
 			instance_destroy();
 		}
 
-		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+		with instance_create_layer(44, 40, "Entities", obj_motel_owner) {
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["KAREN", "Long day?", 3, ["28:It was nothing.", "29:You said it."]];
 			entity_npc = true;
@@ -103,7 +104,7 @@ if (global.day_number == 3) {
 			instance_destroy();
 		}
 
-		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+		with instance_create_layer(44, 40, "Entities", obj_motel_owner) {
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["KAREN", "Morning detective. Would you like the good or bad news first?", 3, ["32:The good.", "33:The bad."]];
 			entity_npc = true;

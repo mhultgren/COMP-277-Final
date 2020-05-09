@@ -42,7 +42,7 @@ if (!global.textOnScreen && global.start_fight) {
 	global.cutscene = false;
 	room_goto(rm_battle);
 	global.enemy_hit_chance = 2;
-	global.battle_enemy = spr_battle_person_fight;
+	global.battle_enemy = spr_werewolf_fight;
 	global.current_enemy_health = 300;
 	global.enemy_health = 300;
 	global.enemy_attack_power = 50;

@@ -9,7 +9,7 @@ if (cutscene_start) {
 		instance_destroy();
 	}
 
-	with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+	with instance_create_layer(44, 40, "Entities", obj_motel_owner) {
 		entity_activate_script = scr_new_text_box;
 		entity_activate_args = ["KAREN", "Come back here when you talk to the bellboy.", 3];
 		entity_npc = true;

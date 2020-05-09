@@ -124,7 +124,7 @@ switch(argument0) {
 			instance_destroy();
 		}
 
-		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+		with instance_create_layer(44, 40, "Entities", obj_motel_owner) {
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["KAREN", "The bellboy's room is through the door \non the left.", 3];
 			entity_npc = true;
@@ -192,7 +192,7 @@ switch(argument0) {
 			instance_destroy();
 		}
 
-		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+		with instance_create_layer(44, 40, "Entities", obj_motel_owner) {
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["KAREN", "Your room's all fresh and clean\nso go and make yourself comfortable."];
 			entity_npc = true;
@@ -226,7 +226,7 @@ switch(argument0) {
 			instance_destroy();
 		}
 
-		with instance_create_layer(43, 37, "Entities", obj_motel_owner) {
+		with instance_create_layer(44, 40, "Entities", obj_motel_owner) {
 			entity_activate_script = scr_new_text_box;
 			entity_activate_args = ["KAREN", "Your room's all fresh and clean\nso go and make yourself comfortable.", 3];
 			entity_npc = true;
@@ -295,7 +295,7 @@ switch(argument0) {
 		room_goto(rm_battle); 
 		global.fought_constable = true; 
 		global.enemy_hit_chance = 11;
-		global.battle_enemy = spr_battle_person_fight;
+		global.battle_enemy = spr_constable_fight;
 		global.current_enemy_health = 100;
 		global.enemy_health = 100;
 		global.enemy_attack_power = 1;
@@ -376,7 +376,7 @@ switch(argument0) {
 	case 43:
 		room_goto(rm_battle);
 		global.enemy_hit_chance = 11;
-		global.battle_enemy = spr_battle_person_fight;
+		global.battle_enemy = spr_werewolf_fight;
 		global.current_enemy_health = 300;
 		global.enemy_health = 300;
 		global.enemy_attack_power = 50;

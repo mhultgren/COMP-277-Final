@@ -1,3 +1,4 @@
+image_index=3;
 leave_station = false;
 counter = 0;
 

@@ -9,7 +9,7 @@
     "bbox_bottom": 63,
     "bbox_left": 12,
     "bbox_right": 51,
-    "bbox_top": 1,
+    "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -34,14 +34,50 @@
                     "mvc": "1.0",
                     "FrameId": "dddafa5b-3183-4a9a-afc6-6ecbf3eee0c9",
                     "LayerId": "551d6491-755d-49e3-97a9-79c7e78fadbb"
+                },
+                {
+                    "id": "96ad463e-8815-4643-b56c-4eaa990fd096",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "dddafa5b-3183-4a9a-afc6-6ecbf3eee0c9",
+                    "LayerId": "3115a96e-3a67-40f5-b90f-e8fffe7fb702"
+                },
+                {
+                    "id": "fe44a9df-ff35-45b9-85d4-839ca3b1e279",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "dddafa5b-3183-4a9a-afc6-6ecbf3eee0c9",
+                    "LayerId": "efea870c-cbfc-45ce-8e3f-61883812293a"
                 }
             ]
         }
     ],
-    "gridX": 0,
-    "gridY": 0,
+    "gridX": 4,
+    "gridY": 4,
     "height": 64,
     "layers": [
+        {
+            "id": "efea870c-cbfc-45ce-8e3f-61883812293a",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "3d95977a-7aae-471d-8fb5-f85cdff77343",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 2",
+            "opacity": 100,
+            "visible": true
+        },
+        {
+            "id": "3115a96e-3a67-40f5-b90f-e8fffe7fb702",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "3d95977a-7aae-471d-8fb5-f85cdff77343",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 1",
+            "opacity": 100,
+            "visible": true
+        },
         {
             "id": "551d6491-755d-49e3-97a9-79c7e78fadbb",
             "modelName": "GMImageLayer",
@@ -51,7 +87,7 @@
             "isLocked": false,
             "name": "default",
             "opacity": 100,
-            "visible": true
+            "visible": false
         }
     ],
     "origin": 4,

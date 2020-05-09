@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_mayor",
     "eventList": [
-        
+        {
+            "id": "f08a51c4-a141-4856-980e-cbaf4ccfef9b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3c9fde18-bcab-4eb9-aa32-e8c3f475b3bd"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "5126e3e1-e854-48ea-9c77-3db6774beb5e",
+    "spriteId": "e86368c7-b46d-4e24-8897-fd3dd052c48a",
     "visible": true
 }

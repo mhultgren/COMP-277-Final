@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_bartender",
     "eventList": [
-        
+        {
+            "id": "74dc1479-ac31-4098-8754-5a5fcb621ca4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "1aa4917b-40ef-4ed8-afc5-add6d435f38d"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -26,6 +35,6 @@
         
     ],
     "solid": false,
-    "spriteId": "a70dbf2d-fb5c-4d39-bbd1-212478de49cb",
+    "spriteId": "bf886b88-5b20-474b-9dc9-1e459c74ace6",
     "visible": true
 }
