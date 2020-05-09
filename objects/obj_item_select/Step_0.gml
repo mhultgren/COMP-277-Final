@@ -111,7 +111,7 @@ else{
 			y = curr_slot[5];
 		}
 		if keyboard_check_pressed(vk_enter) {
-			room_goto(options_menu);
+			game_restart();
 		}
 		
 	}
