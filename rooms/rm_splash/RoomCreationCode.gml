@@ -3,4 +3,4 @@ global.target_y = noone;
 global.textSpeed = 0.75;
 global.textOnScreen = false;
 
-room_goto(rm_train_station_lobby);
+room_goto(rm_exposition);
