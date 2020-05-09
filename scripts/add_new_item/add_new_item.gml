@@ -54,7 +54,7 @@ if argument[0]==2{
 	curr_slot[11] = obj_flowers_inventory;
 }
 if argument[0]==3{
-	curr_slot[2] = "Bellboy's Cap";
+	curr_slot[2] = "Bloody Cap";
 	curr_slot[3] = "The bellboy's cap, covered\nin blood.";
 	curr_slot[10] = 0;
 	curr_slot[11] = obj_cap_inventory;

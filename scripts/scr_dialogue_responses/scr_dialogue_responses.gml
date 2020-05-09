@@ -56,7 +56,7 @@ switch(argument0) {
 		global.betty_dialogue = true;
 		scr_new_text_box("BETTY", "Good to hear, I hope you'll be helpful finding \nmy Horace.", 7);
 		scr_new_text_box("CONSTABLE", "You don't need em, after all I'm here.");
-		scr_new_text_box("CONSTABLE", "I'm ____, the local constable here in Coolsville.\nDon't you worry about this case, I'm on the job.");
+		scr_new_text_box("CONSTABLE", "I'm the local constable here in Coolsville.\nDon't you worry about this case, I'm on the job.");
 		scr_new_text_box("BETTY", "Yes, well anyways I'm sure you have questions about \nmy husband's disappearance?", 7, ["19:I do, yes.", "20:I'd rather not have to take in any more exposition."]);
 		break;
 	case 19:
